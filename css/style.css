@@ -64,11 +64,10 @@ body {
 .background{
   padding-top: 130px ;
   /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
-  background : linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)), url('../img1/first.svg');
+  background : linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)), url('../img/bigbg.jpg');
   /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
   height: 120vh;
-
-}
+ }
 
 
 .bigimg{
@@ -240,8 +239,56 @@ textarea{
   color: #FFFFFF;
 }
 
+.adclas{
+  font-weight:700;
+  font-size:22px ;
+}
+.coclas{
+  padding-top: 55px;
+  line-height: 35px;
+  width: 250px;
+  font-size: 21px;
+}
+.copclas{
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+
+.toclas{
+font-size: 20px;
+font-weight: 600;
+}
+.emclas{
+  font-size: 17px;
+padding-top: 50px;
+}
+.fontclas{
+padding-top: 50px;
+}
+
+
+
 .fa{
   font-size: 42px;
   color: #FFFFFF;
   padding-right: 50px;
+}
+
+.f_logo{
+  padding-top:25px;
+  width : 180px ; 
+  height : auto ; 
+}
+
+.padd{
+  padding-top: 70px;
+  
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
