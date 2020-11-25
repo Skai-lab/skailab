@@ -29,10 +29,11 @@ body {
 
 
 .navbar-default{
+
   background: transparent  ;
   /*background: rgba(240, 54, 76, 1);*/
 
-  
+ 
   /*
     rgba(233, 59, 36 , 0.1);
   */
@@ -108,25 +109,45 @@ body {
 
 
 
-.divdis{
-  padding: 100px 50px 50px 50px;
+.centerTitle{
+  padding: 250px 50px 50px 50px;
   font-size: 35px;
   text-align: center;
+  font-weight: 1000;
 }
 
-.title0{
+.discoverTitle{
+  text-align: center;
   display: block;
   font-size: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
+  margin-right: 50px;
+  font-weight: 1000;
 }
-.text0{
-  padding-top: 40px;
-  font-size: 18px;
+.discoverText{
+  
+  margin-left: 120px;
+  width: 390px;
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: 800;
+
 }
 
 
 .myul{
   padding:25px;
+  list-style: none;
+}
+ 
+.redpoint::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2em;
+  font-size: 2.1em;
 }
 
 
@@ -134,15 +155,48 @@ body {
 .cardimg{
   width: 400px;
   height: 350px;
+  padding: 15px;
+
 }
 
 .insidecard{
-  border: 2px  solid ;
+  /*border: 5px  solid ;
   border-color: red ;
   text-align: center;
-  background-color: green;
-}
+ /* background-color: rgb(60, 70, 60)0, 70, 60);*/
+  
 
+  position: absolute;
+  bottom: -70px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  
+ /* margin-right: -25px;*/
+  width:310px;
+  height:220px;
+  box-shadow:10px 10px 10px 0px rgb(210, 210, 210);  
+  border-radius: 8px;
+  text-align: center;
+ 
+}
+.titleInCard{
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+}
+.textInCard{
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.linkReadMore{
+  color: red;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
 
 .imgdiv{
   display: inline;  
@@ -159,7 +213,7 @@ body {
 }
 
 .imgs{
-  padding: 150px;
+  padding: 50px;
 }
 
 .inp{
