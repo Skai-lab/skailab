@@ -1,0 +1,193 @@
+*{
+  margin  : 0px ;
+  padding : 0px ; 
+  font-size:19px ;
+  font-family: 'Open Sans', sans-serif;  
+
+}
+
+body {
+
+  padding-top: 0px;
+  /*
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    /* background: rgba(209, 30, 30, 0.82);
+  */
+  
+}
+/*
+* navbar modfications 
+*/
+.navbar-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar-default{
+  background: transparent  ;
+  /*background: rgba(240, 54, 76, 1);*/
+
+  
+  /*
+    rgba(233, 59, 36 , 0.1);
+  */
+  padding: 15px;
+  height: auto;
+  border-color: transparent;
+  color :#FFFFFF;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color : #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a{
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.el-navbar{
+  padding: 0px 17px;
+  font-size: 20px;
+}
+
+/*
+* End navbar modification
+*/
+  
+.background{
+  padding-top: 130px ;
+  /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
+  background : linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)), url('../img1/first.svg');
+  /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
+  height: 120vh;
+
+}
+
+
+.bigimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center; 
+
+}
+
+.bigbrand{
+  margin: 50px;
+}
+
+.intro-brand{
+  font-size: 27px;
+  color: #ffffff;
+}
+ 
+
+.btn{
+  margin-top: 50px;
+  border-radius: 43px ;
+  color :   rgba(234, 83, 113, 1);
+  background-color: #FFFFFF;
+  height: 68px;
+  width: 250px;
+  font-size: 20px;
+} 
+
+
+.img2{
+  margin-top: 25px;
+  width: 110px;
+  height: 50px;
+}
+
+
+
+.divdis{
+  padding: 100px 50px 50px 50px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.title0{
+  display: block;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.text0{
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+
+.myul{
+  padding:25px;
+}
+
+
+
+.cardimg{
+  width: 400px;
+  height: 350px;
+}
+
+.insidecard{
+  border: 2px  solid ;
+  border-color: red ;
+  text-align: center;
+  background-color: green;
+}
+
+
+.imgdiv{
+  display: inline;  
+}
+
+.heyimg{
+  margin: 30px;
+  border-radius: 50%;
+  border: 15px solid;
+  border-inline-color: linear-gradient( rgb(240,54,76), rgb(200,255,0));
+  /*
+    linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg');
+  */
+}
+
+.imgs{
+  padding: 150px;
+}
+
+.inp{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  padding: 17px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 600px;
+  resize: none;
+}
+
+textarea{
+  height: 190px;  
+}
+.textemail{
+  inline-size: 425px;
+  font-size: 22px;
+}
+
+.lastone{
+  height: 75vh;
+  background: linear-gradient(to left, rgb(197,40,69), rgb(118,45,59));
+  padding: 60px 50px 50px 0px;
+  color: #FFFFFF;
+}
+
+.fa{
+  font-size: 42px;
+  color: #FFFFFF;
+  padding-right: 50px;
+}
