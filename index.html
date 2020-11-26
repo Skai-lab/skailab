@@ -26,27 +26,7 @@
 
 <style>
     
- 
-  .mor {
-      display: none;
-  font-size: 15px;
 
-  }
-
-
-
-  .content {
-display:none;
-}
-p {
-margin:0 0 10px;
-}
-button {
-margin-top:10px;
-}
-
- 
- 
 
 
 </style>
@@ -612,6 +592,43 @@ margin-top:10px;
  </script>
 
 
+
+<!-- nav bar -->
+
+<script>
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $(".background").height());
+      });
+  });
+</script>
+
+
+<!--  end nav bar -->
 <!-- end Read More -->
 </body>
 </html>
+
+
+
+
+
+<!--
+
+    
+
+    <header>
+        <nav id="navigation" class="navbar navbar-dark bg-primary navbar-fixed-top">		
+			<ul class="nav navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+				<li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a href="#contact-us" class="nav-link">Contact us</a></li>
+			</ul>
+        </nav>
+    </header>
+    
+    
+-->
+
