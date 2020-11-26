@@ -16,6 +16,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 
 
+<!-- FONT AWSOME -->
+<!-- <script src="https://kit.fontawesome.com/c905dbcf97.js" crossorigin="anonymous"></script>    -->
+<script src="https://kit.fontawesome.com/c905dbcf97.js" crossorigin="anonymous"></script>
+
+
+
+
+<link rel='stylesheet' type='text/css' media='screen' href='css/buttonstyle.css'>
+
 </head>
 <body>
   
@@ -78,11 +87,45 @@
                     It was build with the HPC of the University of skikda, 
                     August, 20th 1955 North east of Algeria
                 </div>
+                <a ></a>
             </div>
             <div class="col-sm-6">
                 <!--****************** IMPORTANT *****************-->
                 <!-- video is here , ger the link and put  it here-->
-                <img src="img/video.svg">
+<!-------------------------------------------------->
+
+                    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <div class="videob">
+
+        <div class="wrapper">
+            <video class="video">
+                <source src="#" type="video/mp4"/>   <!--- put the link here -->
+            </video>
+            <div class="buttons">
+                <div class="play-btn">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+
+        <!--     <div class="playpause"></div>    -->
+
+        </div>
+    </div>
+
+
+
+<!----------------------------------------------->
+<!--
+    <img src="img/video.svg">
+--> 
+
+
+
+
+                
             </div>
         </div>
     </div>
@@ -450,5 +493,36 @@
     <script src='bs/js/bootstrap.min.js'></script>
     <script src='bs/js/npm.js'></script> 
     <script src='js/js.js'></script>
+
+
+
+
+<!--
+    start modification button 
+-->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/c905dbcf97.js" crossorigin="anonymous"></script>
+ 
+<script>
+    $('.video').parent().click(function () {
+        if($(this).children(".video").get(0).paused){
+            $(this).children(".video").get(0).play();
+            $(this).children(".playpause").fadeOut();
+        }else{
+        $(this).children(".video").get(0).pause();
+            $(this).children(".playpause").fadeIn();
+        }
+    });
+</script>
+
+
+<!--    End modification button  -->
+
+
+
 </body>
 </html>
