@@ -102,7 +102,7 @@
 
         <div class="wrapper">
             <video class="video">
-                <source src="#" type="video/mp4"/>   <!--- put the link here -->
+                <source src="http://e14aaeb709f7cde1ae68-a1d0a134a31b545b257b15f8a8ba5726.r70.cf3.rackcdn.com/projects/31432/1427815464209-bf74131a7528d0ea5ce8c0710f530bb5/1280x720.mp4" type="video/mp4"/>   <!--- put the link here -->
             </video>
             <div class="buttons">
                 <div class="play-btn">
@@ -511,10 +511,10 @@
     $('.video').parent().click(function () {
         if($(this).children(".video").get(0).paused){
             $(this).children(".video").get(0).play();
-            $(this).children(".playpause").fadeOut();
+            $(this).children(".buttons").fadeOut();
         }else{
         $(this).children(".video").get(0).pause();
-            $(this).children(".playpause").fadeIn();
+            $(this).children(".buttons").fadeIn();
         }
     });
 </script>
