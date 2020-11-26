@@ -27,11 +27,28 @@
 <style>
     
  
-  #more {
+  .mor {
       display: none;
   font-size: 15px;
 
   }
+
+
+
+  .content {
+display:none;
+}
+p {
+margin:0 0 10px;
+}
+button {
+margin-top:10px;
+}
+
+ 
+ 
+
+
 </style>
 
 
@@ -183,38 +200,23 @@
             <div class="row"> 
 
                 <div class="col-sm-4">
-                    <img class="cardimg" src="img/c1.jpg">
-                    <div class="insidecard">
-                        <span class="titleInCard">  
-                            Tackle University problems using AI 
-                        </span> 
-                        <br><br>
-                        <span class="textInCard">
-                            Lorem ipsum dolor sit amet
-                        </span>
-                        <br><br>
-                        <a class="linkReadMore" href="#">Read More</a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <img class="cardimg" src="img/c2.png">
+                    <img class="cardimg" src="img/c3.jpg">
                     <div class="insidecard">
                         <span class="titleInCard">  
                             Tackle University problems using AI 
                         </span>
                         <br><br>
-                        <span class="textInCard">
-                            Lorem ipsum dolor sit amet
-                        </span>
-                        <br><br>
-                        <a class="linkReadMore" href="#">Read More</a>
+                        <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
+                            <span  id="dots1">...</span>
+                            <span class="mor" id="more1">
+                                 erisque enim ligula venenatis dolor. Maecenas nisl est,
+                                  ultrices nec congue eget, auctor vitae massa.
+                                  
+                            </span>
+                        </p>
+                        <a class="linkReadMore" onclick="myFunction1()" id="myBtn1">Read more</a>
                     </div>
                 </div>
-
-               
-<!--     555555555555555555555555        -->
-                <!-- Card -->
 
                 <div class="col-sm-4">
                     <img class="cardimg" src="img/c3.jpg">
@@ -224,39 +226,38 @@
                         </span>
                         <br><br>
                         <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
-                            <span  id="dots">...</span>
-                            <span id="more">
+                            <span  id="dots2">...</span>
+                            <span class="mor" id="more2">
                                  erisque enim ligula venenatis dolor. Maecenas nisl est,
                                   ultrices nec congue eget, auctor vitae massa.
                                   
                             </span>
                         </p>
-                        <a class="linkReadMore" onclick="myFunction()" id="myBtn">Read more</a>
+                        <a class="linkReadMore" onclick="myFunction2()" id="myBtn2">Read more</a>
+                    </div>
+                </div> 
+                
+
+                <div class="col-sm-4">
+                    <img class="cardimg" src="img/c3.jpg">
+                    <div class="insidecard">
+                        <span class="titleInCard">  
+                            Tackle University problems using AI 
+                        </span>
+                        <br><br>
+                        <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
+                            <span  id="dots3">...</span>
+                            <span class="mor" id="more3">
+                                 erisque enim ligula venenatis dolor. Maecenas nisl est,
+                                  ultrices nec congue eget, auctor vitae massa.
+                                  
+                            </span>
+                        </p>
+                        <a class="linkReadMore" onclick="myFunction3()" id="myBtn3">Read more</a>
                     </div>
                 </div>
 
-
-
-      <!--         <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
-                    <span id="dots">...</span>
-                    <span id="more">
-                         erisque enim ligula venenatis dolor. Maecenas nisl est,
-                          ultrices nec congue eget, auctor vitae massa.
-                          
-                    </span>
-                </p>
-                <button onclick="myFunction()" id="myBtn">Read more</button>
---> 
- 
-
-<!--      55555555555555555555555      -->
-
-
-
-                       
-
             </div>
-
         </div>
         <!--end div 6 -->
         <!-- start div 7-->
@@ -270,27 +271,27 @@
         <div class="container imgs">
             <div class="row"> 
                 
-                    <div class="col-sm-2">
-                        <img class="heyimg" src="img/img5.PNG"> 
-                    </div>
+                <div class="col-sm-2">
+                    <img class="heyimg" src="img/img5.PNG"> 
+                </div>
+            
+                <div class="col-sm-4">
+                    <div> flan ben flan</div><br>
+                    <div> ai intelligence artifictial </div> 
                 
-                    <div class="col-sm-4">
-                       <div> flan ben flan</div><br>
-                       <div> ai intelligence artifictial </div> 
-                    
-                    </div>
+                </div>
 
+            
+                <div class="col-sm-2">
+                    <img class="heyimg" src="img/img5.PNG"> 
                 
-                    <div class="col-sm-2">
-                        <img class="heyimg" src="img/img5.PNG"> 
-                    
-                    </div>
-                    <div class="col-sm-4">
-                       <div> flan ben flan</div><br>
-                       <div> ai intelligence artifictial </div>                     
-                    </div>
-               
+                </div>
+                <div class="col-sm-4">
+                <div> flan ben flan</div><br>
+                <div> ai intelligence artifictial </div>                     
             </div>
+               
+        </div>
             
             <div class="row"> 
                 
@@ -460,65 +461,66 @@
 
 
 <!--start div 11 -->
-
-<div class="container-fluid lastone">
-    <div class="row">
-        <div class="col-sm-2">
-          <!-- let this empty for holding 2 grids-->
-        </div>
-        <div class="col-sm-3">
-            <div class="adclas" >
-                Address
+<footer>
+    <div class="container-fluid lastone">
+        <div class="row">
+            <div class="col-sm-2">
+            <!-- let this empty for holding 2 grids-->
             </div>
-            
-            <div class="coclas">
-                University Of 20 August 1955 Skikda Algeria
-            </div>
-             
-            <div class="copclas">
-                Copyright 2020 Skailab
-            </div>
-        </div>
-        <div class="col-sm-1">
-            <!-- let this empty for holding 1 grids-->
-          </div>
-        <div class="col-sm-6">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="toclas">
-                        Get in Touch
-                    </div> 
-                    <div class="emclas">
-                        Skailabcenter@Gmail.Com
-                    </div>
-                    <div class="font-social fontclas"> 
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <img class="f_logo" src="img/f_logo.svg" >
-                </div>
-            </div>
-         
-            <div class="row padd">
-                <div class="col-sm-4">
-                    <img class="center1" src="img/Group.png">
-                </div>
-                <div class="col-sm-3">
-                    <img class="center1" src="img/limitlesslogo.svg">
-                </div>
-                <div class="col-sm-4">
-                    <img class="center1" src="img/univ.svg">
+            <div class="col-sm-3">
+                <div class="adclas" >
+                    Address
                 </div>
                 
+                <div class="coclas">
+                    University Of 20 August 1955 Skikda Algeria
+                </div>
+                
+                <div class="copclas">
+                    Copyright 2020 Skailab
+                </div>
             </div>
+            <div class="col-sm-1">
+                <!-- let this empty for holding 1 grids-->
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="toclas">
+                            Get in Touch
+                        </div> 
+                        <div class="emclas">
+                            Skailabcenter@Gmail.Com
+                        </div>
+                        <div class="font-social fontclas"> 
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="f_logo" src="img/f_logo.svg" >
+                    </div>
+                </div>
+            
+                <div class="row padd">
+                    <div class="col-sm-4">
+                        <img class="center1" src="img/Group.png">
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="center1" src="img/limitlesslogo.svg">
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="center1" src="img/univ.svg">
+                    </div>
+                    
+                </div>
+            </div>
+
         </div>
 
     </div>
-
-</div>
+</footer>
 <!--end div 11 -->
 
     <!--  end  div s    -->
@@ -533,7 +535,6 @@
 <!--
     start modification button 
 -->
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -558,23 +559,59 @@
 <!--    Read More   -->
 
 <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-    
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
+    function myFunction1() {
+      var dots1 = document.getElementById("dots1");
+      var moreText1 = document.getElementById("more1");
+      var btnText1 = document.getElementById("myBtn1");
+
+      if (dots1.style.display === "none") {
+        dots1.style.display = "inline";
+        btnText1.innerHTML = "Read more"; 
+        moreText1.style.display = "none";
+
       } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
+        dots1.style.display = "none";
+        btnText1.innerHTML = "Read less"; 
+        moreText1.style.display = "inline";
       }
     }
-    </script>
-    
+
+    function myFunction2() {
+      var dots2 = document.getElementById("dots2");
+      var moreText2 = document.getElementById("more2");
+      var btnText2 = document.getElementById("myBtn2");
+
+      if (dots2.style.display === "none") {
+        dots2.style.display = "inline";
+        btnText2.innerHTML = "Read more"; 
+        moreText2.style.display = "none";
+
+      } else {
+        dots2.style.display = "none";
+        btnText2.innerHTML = "Read less"; 
+        moreText2.style.display = "inline";
+      }
+    }
+
+    function myFunction3() {
+      var dots3 = document.getElementById("dots3");
+      var moreText3 = document.getElementById("more3");
+      var btnText3 = document.getElementById("myBtn3");
+
+      if (dots3.style.display === "none") {
+        dots3.style.display = "inline";
+        btnText3.innerHTML = "Read more"; 
+        moreText3.style.display = "none";
+
+      } else {
+        dots3.style.display = "none";
+        btnText3.innerHTML = "Read less"; 
+        moreText3.style.display = "inline";
+      }
+    }
+ </script>
+
+
 <!-- end Read More -->
 </body>
 </html>

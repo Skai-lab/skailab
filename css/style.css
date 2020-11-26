@@ -63,11 +63,16 @@ body {
   
 .background{
   padding-top: 130px ;
+
   /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
   background : linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)), url('../img/bigbg.jpg');
   /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
-  height: 120vh;
- }
+ /* height: 120vh;*/
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:auto;
+
+  }
 
 
 .bigimg{
@@ -97,6 +102,7 @@ body {
   height: 68px;
   width: 250px;
   font-size: 20px;
+  margin-bottom: 5em;
 } 
 
 
@@ -178,7 +184,7 @@ body {
   
  /* margin-right: -25px;*/
   width:310px;
-  height:220px;
+  height:290px;
   box-shadow:10px 10px 10px 0px rgb(210, 210, 210);  
   border-radius: 8px;
   text-align: center;
@@ -199,6 +205,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   text-align: center;
+  cursor: pointer;
 }
 
 .imgdiv{
@@ -237,7 +244,7 @@ textarea{
 }
 
 .lastone{
-  height: 75vh;
+ 
   background: linear-gradient(to left, rgb(197,40,69), rgb(118,45,59));
   padding: 60px 50px 50px 0px;
   color: #FFFFFF;
@@ -295,4 +302,8 @@ padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   
+}
+
+footer{
+  height:100%;
 }
