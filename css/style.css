@@ -31,10 +31,10 @@ body {
 .navbar-default{
 
   background: transparent  ;
-  /*background: rgba(240, 54, 76, 1);*/
+  /*background: rgba(240, 54, 76, 1);*
 
  
-  /*
+  /
     rgba(233, 59, 36 , 0.1);
   */
   padding: 15px;
@@ -89,7 +89,7 @@ body {
 }
  
 
-.btn{
+.discoverBtn{
   margin-top: 50px;
   border-radius: 43px ;
   color :   rgba(234, 83, 113, 1);
@@ -100,7 +100,7 @@ body {
 } 
 
 
-.img2{
+.skailogo{
   margin-top: 25px;
   width: 110px;
   height: 50px;
@@ -109,7 +109,7 @@ body {
 
 
 .centerTitle{
-  padding: 250px 50px 50px 50px;
+  padding: 180px 50px 120px 50px;
   font-size: 35px;
   text-align: center;
   font-weight: 1000;
@@ -134,8 +134,12 @@ body {
 
 }
 
+.algeria{
+  padding:60px 0px 0px 110px ;
+  
+}
 
-.myul{
+.myulAlgeria{
   padding:25px;
   list-style: none;
 }
@@ -178,13 +182,13 @@ body {
   box-shadow:10px 10px 10px 0px rgb(210, 210, 210);  
   border-radius: 8px;
   text-align: center;
- 
+  
 }
 .titleInCard{
   font-weight: 700;
   font-size: 17px;
   text-align: center;
-}
+ }
 .textInCard{
   font-weight: normal;
   font-size: 14px;
