@@ -9,11 +9,49 @@
   transition: background-color 700px linear;
 }
 
-.navbar-fixed-top.scrolled .nav-link {
+.navbar-fixed-top.scrolled{
   color:rgb(238, 153, 153);
 }
 
+ /*********************  DROP DOWN  ***********************/
+ .fa .fa-caret-down{
+  font-size: 3px;
+ }
+ 
+.dropdownx .dropbtnx {
+  font-size: 16px;  
+  border: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+ }
+ .navbar-default .navbar-nav>li>a:hover{
+  color: skyblue;
 
+ }
+.navbar a:hover, .dropdownx:hover .dropbtnx {
+ /* background-color: red;*/
+ color: skyblue;
+}
+
+.dropdown-contentx {
+  display: none;
+  background-color: #f9f9f9;
+}
+
+.dropdown-contentx a {
+   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+ 
+
+.dropdownx:hover .dropdown-contentx {
+  display: block;
+}
+
+/*************** FIN OF DROP DOWN **********************/
 
 
 
@@ -62,6 +100,7 @@ body {
   color :#FFFFFF;
 
 }
+
 .navbar-default .navbar-nav>li>a{
   color : #FFFFFF;
 }
@@ -70,6 +109,7 @@ body {
   margin-top: 30px;
   padding: 25px;
 }
+
 
 .el-navbar{
   padding: 0px 17px;
@@ -341,3 +381,22 @@ padding-top: 50px;
 footer{
   height:100%;
 }
+
+
+ .dropdownxx{
+   margin-top: -5px; 
+ }
+
+.inputbox{
+  font-size: 20px;
+  font-weight: 1000;
+  background: transparent;
+  border: none;
+}
+.inputbox:hover , .inputbox::after , .inputbox::before , .inputbox:focus  {
+  border: none;
+}
+ 
+.select {
+  border: 20px;
+  }
