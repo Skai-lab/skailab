@@ -1,12 +1,21 @@
 
-@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+@import "bs4.min.css";
  
+
+*{
+  margin  : 0px ;
+  padding : 0px ; 
+  font-size:19px ;
+  font-family: 'Open Sans', sans-serif;  
+}
+
+body { 
+  padding-top: 0px; 
+}
 
 .navbar-fixed-top.scrolled {
   background-color: rgba(240, 54, 76, 0.6) !important;
-
-  
-  transition: background-color 700px linear;
+  transition: background-color 550ms linear;
 }
 
 .navbar-fixed-top.scrolled{
@@ -14,9 +23,9 @@
 }
 
  /*********************  DROP DOWN  ***********************/
- .fa .fa-caret-down{
+.fa .fa-caret-down{
   font-size: 3px;
- }
+}
  
 .dropdownx .dropbtnx {
   font-size: 16px;  
@@ -24,14 +33,15 @@
   color: white;
   background-color: inherit;
   font-family: inherit;
- }
- .navbar-default .navbar-nav>li>a:hover{
-  color: skyblue;
+} 
 
- }
+.navbar-default .navbar-nav>li>a:hover{
+  color: skyblue;
+}
+ 
+
 .navbar a:hover, .dropdownx:hover .dropbtnx {
- /* background-color: red;*/
- color: skyblue;
+  color: skyblue;
 }
 
 .dropdown-contentx {
@@ -40,13 +50,12 @@
 }
 
 .dropdown-contentx a {
-   color: black;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
- }
+}
  
-
 .dropdownx:hover .dropdown-contentx {
   display: block;
 }
@@ -55,27 +64,6 @@
 
 
 
-*{
-  margin  : 0px ;
-  padding : 0px ; 
-  font-size:19px ;
-  font-family: 'Open Sans', sans-serif;  
-
-}
-
-body {
-
-  padding-top: 0px;
-  /*
-    background-image: url('../img/img1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
-    /* background: rgba(209, 30, 30, 0.82);
-  */
-  
-}
 /*
 * navbar modfications 
 */
@@ -116,6 +104,9 @@ body {
   font-size: 20px;
 }
 
+li .el-navbar:active{
+ color: red;
+}
 /*
 * End navbar modification
 */
@@ -169,14 +160,18 @@ body {
  
 
 .discoverBtn{
-  margin-top: 50px;
+ 
+  border: .5px solid;
   border-radius: 43px ;
   color :   rgba(234, 83, 113, 1);
   background-color: #FFFFFF;
   height: 68px;
   width: 250px;
-  font-size: 20px;
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 40px;
   margin-bottom: 5em;
+  box-shadow:0px 2px 15px 0px rgb(228, 228, 228);  
 } 
 
 
@@ -213,6 +208,7 @@ body {
   font-weight: 800;
 
 }
+ 
 
 .algeria{
   padding:60px 0px 0px 110px ;
@@ -275,39 +271,60 @@ body {
   text-align: center;
 }
 .linkReadMore{
-  color: red;
-  font-weight: normal;
+  font-weight: 900;
   font-size: 12px;
   text-align: center;
   cursor: pointer;
+  color: red;
 }
-
-.imgdiv{
-  display: inline;  
-}
+ 
 
 .heyimg{
-  margin: 30px;
+  margin: 0px 30px 30px 30px;
   border-radius: 50%;
-  border: 15px solid;
-  border-inline-color: linear-gradient( rgb(240,54,76), rgb(200,255,0));
-  /*
-    linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg');
-  */
+  
+  padding: 20px;
+  background-image: linear-gradient(to top, rgb(232,59,39),  rgb(222,74,111) );
+width: 180px;
+height: 180px;
+/*
+ width: 161.04px;
+height: 161.04px;
+left: 200.96px;
+top: 2851.3px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .imgs{
-  padding: 50px;
+   padding: 50px;
+} 
+
+
+.sparator{
+  height: 50px;
+ 
 }
+
+
+
+
+
+
+
+
 
 .inp{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   padding: 17px;
   margin: 20px;
+  border: 2px solid;
   border-radius: 10px;
   width: 600px;
   resize: none;
 }
+ 
 
 textarea{
   height: 190px;  
@@ -400,3 +417,21 @@ footer{
 .select {
   border: 20px;
   }
+
+.subbtn{
+  padding: 13px 34px;
+
+
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  margin: 20px;
+  resize: none;
+
+  background: linear-gradient(180deg, #DA454B 0%, #E63B6E 100%);
+  border:none;
+  border-radius: 6px;
+  color:#fff;
+
+}
+
+
+

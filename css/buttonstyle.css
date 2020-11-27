@@ -1,121 +1,79 @@
 
-	 .video{
-        width: 100%;
-     }
-    .covideo{
-        width: 100%;
-        max-width: 800px;
-        position: relative;
-    }
-    .controlss{
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        flex-wrap: wrap;
-   /*	 background: rgba(0, 0, 0, 0.7);	 */
-    }
+.video{
+   width: 100%;
+   border: 1px solid black;
+   border-bottom: 2px solid black ;
+}
 
-/*******************************/
+.covideo{
+   width: 100%;
+   max-width: 800px;
+   position: relative;
+}
+
+.controlss{
+   display: flex;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   flex-wrap: wrap;
+}
 
 .videob .play-btn{
    background: rgb(252,64,101);
    color: fff;
    width: 70px;
    height: 70px;
-     margin: auto;
+   margin: auto;
    text-align: center;
    border-radius: 50%;
    margin: 200px;
    margin-left:-35px;
-
-
-/***********************/
- background-repeat:no-repeat;
- position:absolute;
-left:-5%;
-right:100%;
-top:0%;
-bottom:0px;
-margin:auto;
-background-size:contain;
-background-position: center;
-/************************/
-
-
-
+   background-repeat:no-repeat;
+   position:absolute;
+   left:-5%;
+   right:100%;
+   top:0%;
+   bottom:0px;
+   margin:auto;
+   background-size:contain;
+   background-position: center; 
 }
+
 .videob .play-btn i{
    line-height: 70px;
    margin-left: 5px; 
 }
+
 .videob .play-btn:before,.videob .play-btn:after{
    content:"";
-   /*position: absolute;*/
-   border: 2px;
+   border: 2px solid;
    border-radius: 50%;
    left: 0px;
    right: 0px;
    top: 0px;
    bottom: 0px;
    box-shadow:1px 1px 10px 0px rgb(252,64,101);
-
-
-
 }
+
 .fas{
    color : #fff ;
    font-size:15px;
 }
 
-
-
-
-/***********************************/
-
-.play-btn
-{
-   /****** button *******/
+.play-btn{
    width:120px;
    height:60px;
    margin-left:35px;
    display:block;
    background-color:gray;
    color:white;
-   
    color:rgb(252,64,101);
    border: 0.5px solid;
-
    outline:none;
-   /*********/
    cursor: pointer;
 }
 
-
-
-.redbar{
-height: 10px;
-top: 0;
-left: 0;
-width: 100%;
-}
-.redjuice{
-height: 10px;
-width: 100px;
-background-color: rgb(200, 200, 200);
-}
-
-
-
-/************** last ******************/
-
-
-
-
-.video {
-    width: 100%;
-    border: 1px solid black;
-}
 .wrapper{
     display:table;
     width:auto;
