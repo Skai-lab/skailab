@@ -1,732 +1,578 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <title>toumi</title>
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-        
-    <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap-theme.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap-theme.min.css'>
-
-
-    
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-<!--//////////////////-->
-
-  
-<!--///////////////-->
-
-
-
-<!-- FONT AWSOME -->
-     <script src="https://kit.fontawesome.com/c905dbcf97.js" crossorigin="anonymous"></script>
-
-
-
-
-<link rel='stylesheet' type='text/css' media='screen' href='css/buttonstyle.css'>
+    <head>
+        <meta charset='utf-8'>
+       
+        <title> Skailab</title>
+        <link rel="shortcut icon" href="img/title.jpg" />
  
-<style>
-   
-</style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-</head>
-<body>
-  
-    <!----
-    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
-        <div class="container-fluid navbar-center"> <--start of the container --<
-            <div class="navbar-header"> <-- start header --<
-           <--     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="col0"></button>
-            --<  
-                <a class="navbar-brand" href="#"><img src="img/skailogo.png" class="skailogo"></a>
-            </div> <-- end header --<
-            <div class="collapse navbar-collapse" id="col0">
-                <ul class="nav navbar-nav">
-                    <li class="el-navbar"><a href="#">HOME</a></li>
-                    <li class="el-navbar"><a href="#">PROJECTS</a></li>
-                    <li class="el-navbar"><a href="#">GOALS</a></li>
-                    <li class="el-navbar"><a href="#">TEAM</a></li>
-                    <li class="el-navbar"><a href="#">CONTACT US</a></li>
-                    <li class="dropdown el-navbar">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">ENG<b class="caret"></b></a>
-                        <ul class="dropdown-menu" role="menu">
-                            
-                            <li><a href="#">l1</a></li>
-                            <li><a href="#">l2</a></li>
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+            
+        <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap-theme.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='bs/css/bootstrap-theme.min.css'> 
+        
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/buttonstyle.css'> 
+    </head>
+    <body>
+        
+            <!----
+            <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+                <div class="container-fluid navbar-center"> <--start of the container --<
+                    <div class="navbar-header"> <-- start header --<
+                <--     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="col0"></button>
+                    --<  
+                        <a class="navbar-brand" href="#"><img src="img/skailogo.png" class="skailogo"></a>
+                    </div> <-- end header --<
+                    <div class="collapse navbar-collapse" id="col0">
+                        <ul class="nav navbar-nav">
+                            <li class="el-navbar"><a href="#">HOME</a></li>
+                            <li class="el-navbar"><a href="#">PROJECTS</a></li>
+                            <li class="el-navbar"><a href="#">GOALS</a></li>
+                            <li class="el-navbar"><a href="#">TEAM</a></li>
+                            <li class="el-navbar"><a href="#">CONTACT US</a></li>
+                            <li class="dropdown el-navbar">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ENG<b class="caret"></b></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    
+                                    <li><a href="#">l1</a></li>
+                                    <li><a href="#">l2</a></li>
+                                </ul>
+                            </li>
+        
                         </ul>
-                    </li>
- 
-                </ul>
 
-            </div>
-        </div><-- end of the container --
-    </nav>
--->
-
-<!--///////////////////////-->
-<header id="home">
-    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
-        <div class="container-fluid navbar-center"> <!--start of the container -->
-            <div class="navbar-header"> <!-- start header -->
-           <!--     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="col0"></button>
-           -->  
-                <a class="navbar-brand" href="#"><img src="img/skailogo.png" class="skailogo"></a>
-            </div> <!-- end header -->
-            <div class="collapse navbar-collapse" id="col0">
-                <ul class="nav navbar-nav">
-                    <li class="el-navbar"><a href="#home">HOME</a></li>
-                    <li class="el-navbar"><a href="#projects">PROJECTS</a></li>
-                    <li class="el-navbar"><a href="#goals">GOALS</a></li>
-                    <li class="el-navbar"><a href="#team">TEAM</a></li>
-                    <li class="el-navbar"><a href="#contact">CONTACT US</a></li>
-                     <li class="dropdownxx el-navbar">
-                         <a>
-                    <!-- <li class="dropdownx">
-                        <a   class="dropbtnx">ENG  <span class="caret"></span> </a>
-                        <div id="state" class="dropdown-contentx">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>      -->
-                        <select id="state" name="state" class="inputbox" size="1">
-                            <option value="EN" class="USA">EN</option>
-                            <option value="AR" class="USA">AR</option>
-                            <option value="FR" class="USA">FR</option>
-                            <option value="DU" class="USA">DU</option>
-                            <option value="SP" class="USA">SP</option>
-                          </select>
-                        </a>
-                    </li> 
- 
-                </ul>
-
-            </div>
-        </div><!-- end of the container -->
-    </nav>
- 
-
-
-<!--//////////////////////-->
-
-    <div class="background">
-        <div class="bigimg">
-                <img class="bigbrand" src="img/Frame_1_brand.svg" width="430px" height="auto" >
-                <div class="intro-brand">   
-                    Artificial Intelligence Excellence Laboratory <br>
-                    20 August 1955 Skikda University
-                </div>
-             <button type="button" class="discoverBtn">  DISCOVER NOW  </button>  
-        </div>
-    </div>
-</header>
-
-<section>
-    <!--  start other div s -->
-    <!-- start div 1-->
-    <div class="centerTitle">
-       
-            DISCOVER
-       
-    </div>
-    <!--end div 1 -->
-    <!-- start div 2 -->
-    <div class="container">
-        <div class="row"> 
-            <div class="col-sm-6">
-                <span class="discoverTitle">WHAT IS SKAILAB ? </span>
-                <div class="discoverText">SKAILAB is the first Artificial Intelligence Center in Algeria. 
-                    It was build with the HPC of the University of skikda, 
-                    August, 20th 1955 North east of Algeria
-                </div>
-                <a ></a>
-            </div>
-            <div class="col-sm-6">
-                <!--****************** IMPORTANT *****************-->
-                <!-- video is here , ger the link and put  it here-->
-<!-------------------------------------------------->
-
-                    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-
-    <div class="videob">
-
-        <div class="wrapper">
-            <video class="video">
-                <source src="http://e14aaeb709f7cde1ae68-a1d0a134a31b545b257b15f8a8ba5726.r70.cf3.rackcdn.com/projects/31432/1427815464209-bf74131a7528d0ea5ce8c0710f530bb5/1280x720.mp4" type="video/mp4"/>   <!--- put the link here -->
-            </video>
-            <div class="buttons">
-                <div class="play-btn">
-                    <i class="fas fa-play"></i>
-                </div>
-            </div>
-
-        <!--     <div class="playpause"></div>    -->
-
-        </div>
-    </div>
-
-
-
-<!----------------------------------------------->
-  
-                
-            </div>
-        </div>
-    </div>
-    <!--end div 2 -->
-
-<section id="projects">
-      <!-- start div 3-->
-      <div class="centerTitle">
-      
-        PROJECTS
-         
-      </div>
-          <!--end div 3 -->
-
-     <!-- start div 4 -->
-     <div class="container">
-        <div class="row"> 
-          
-            <div class="col-sm-5 algeria">
-                <img  src="img/algeria.svg">
-            </div>
-            <div class="col-sm-7">
-               <ul class="myulAlgeria" >
-                   <li class="redpoint"> Neonatal jaundice Detection  in Algeria Using AI </li>
-
-                   <li class="redpoint"> A Hybrid Solution For Pattern Recognition: Face and Speech </li>
-
-                   <li class="redpoint"> Smole Detection in Algeria Monitorinf and air Pollutin Reduction  </li>
-
-                   <li class="redpoint"> Deep learning fr Equity Education  </li>
-
-                   <li class="redpoint"> Lung disease AI Classifier </li>
-
-               </ul>
-
-            </div>
-        </div>
-
-    </div>
-    <!--end div 4 -->
-</section>
-<section id="goals">
-        <!-- start div 5-->
-        <div class="centerTitle">
-            
-            GOALS
-            
-        </div>
-        <!--end div 5 -->
-        <!-- start div 6 -->
-        <div class="container ">
-
-            <div class="row"> 
-
-                <div class="col-sm-4">
-                    <img class="cardimg" src="img/c1.jpg">
-                    <div class="insidecard">
-                        <span class="titleInCard">  
-                            Tackle University problems using AI 
-                        </span>
-                        <br><br>
-                        <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
-                            <span  id="dots1">...</span>
-                            <span class="mor" id="more1">
-                                 erisque enim ligula venenatis dolor. Maecenas nisl est,
-                                  ultrices nec congue eget, auctor vitae massa.
-                                  
-                            </span>
-                        </p>
-                        <a class="linkReadMore" onclick="myFunction1()" id="myBtn1">Read more</a>
                     </div>
-                </div>
+                </div><-- end of the container --
+            </nav>
+        -->
 
-                <div class="col-sm-4">
-                    <img class="cardimg" src="img/c2.png">
-                    <div class="insidecard">
-                        <span class="titleInCard">  
-                            Tackle University problems using AI 
-                        </span>
-                        <br><br>
-                        <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
-                            <span  id="dots2">...</span>
-                            <span class="mor" id="more2">
-                                 erisque enim ligula venenatis dolor. Maecenas nisl est,
-                                  ultrices nec congue eget, auctor vitae massa.
-                                  
-                            </span>
-                        </p>
-                        <a class="linkReadMore" onclick="myFunction2()" id="myBtn2">Read more</a>
+        <!--///////////////////////-->
+        <header id="home">
+            <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+                <div class="container-fluid navbar-center"> <!--start of the container -->
+                    <div class="navbar-header"> <!-- start header -->
+                <!--     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="col0"></button>
+                -->  
+                        <a class="navbar-brand" href="#"><img src="img/skailogo.png" class="skailogo"></a>
+                    </div> <!-- end header -->
+                    <div class="collapse navbar-collapse" id="col0">
+                        <ul class="nav navbar-nav">
+                            <li class="el-navbar"><a href="#home">HOME</a></li>
+                            <li class="el-navbar"><a href="#projects">PROJECTS</a></li>
+                            <li class="el-navbar"><a href="#goals">GOALS</a></li>
+                            <li class="el-navbar"><a href="#team">TEAM</a></li>
+                            <li class="el-navbar"><a href="#contact">CONTACT US</a></li>
+                            <li class="dropdownxx el-navbar">
+                                <a>
+                                    <select id="lang" name="lang" class="inputbox"  size="1">
+                                        <option value="EN" class="USA">EN</option>
+                                        <option value="AR" class="USA">AR</option>
+                                        <option value="FR" class="USA">FR</option>
+                                        <option value="DU" class="USA">DU</option>
+                                        <option value="SP" class="USA">SP</option>
+                                    </select>
+                                </a>
+                            </li> 
+                        </ul>
                     </div>
-                </div> 
-                
-
-                <div class="col-sm-4">
-                    <img class="cardimg" src="img/c3.jpg">
-                    <div class="insidecard">
-                        <span class="titleInCard">  
-                            Tackle University problems using AI 
-                        </span>
-                        <br><br>
-                        <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
-                            <span  id="dots3">...</span>
-                            <span class="mor" id="more3">
-                                 erisque enim ligula venenatis dolor. Maecenas nisl est,
-                                  ultrices nec congue eget, auctor vitae massa.
-                                  
-                            </span>
-                        </p>
-                        <a class="linkReadMore" onclick="myFunction3()" id="myBtn3">Read more</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--end div 6 -->
-    </section>
-    <section id="team"> 
-        <!-- start div 7-->
-        <div class="centerTitle">
-
-            TEAM
-            
-        </div>
-        <!--end div 7 -->
-        <!-- start div 8 -->
-        <div class="container imgs">
-            <div class="row"> 
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p0.png"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Dr.Mourad Bouache </b></div><br>
-                    <div> AI and Performance Yahoo!  Silicon valley
-                     </div> 
-                </div>
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p1.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Dr.Mohamed Senouci </b></div><br>
-                    <div>Professor ar ECE Paris</div>                     
-                </div> 
-            </div>
-            <div class="sparator"></div>
-
-            <div class="row"> 
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p2.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Pr.Salim Haddad</b></div><br>
-                    <div>President of the University of Skikda</div> 
-                </div>
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p3.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Pr.Smaine Mazouzi </b></div><br>
-                    <div>Professor at the University of Skikda | CS</div>                     
-                </div> 
-            </div>
-            <div class="sparator"></div>
-            <div class="row"> 
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p4.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Isra Boucetta</b></div><br>
-                    <div> Middle School Student</div> 
-                </div>
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p5.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Yasmine Lala Bouali</b></div><br>
-                    <div> Master 2 CS Student </div>                     
-                </div> 
-            </div>
-            <div class="sparator"></div>
-            <div class="row"> 
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p6.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br><br>
-                    <div><b>  Sofia Smati </b></div><br>
-                    <div>  Master 2 CS Student</div> 
-                </div>
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p7.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Safa Hamreras </b></div><br>
-                    <div>PhD Student CS</div>                     
-                </div> 
-            </div>
-            <div class="sparator"></div>
-            <div class="row"> 
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p8.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Abderrahmane Bououden </b></div><br>
-                    <div> PhD Student </div> 
-                </div>
-                <div class="col-sm-2">
-                    <img class="heyimg" src="pimg/p9.jpg"> 
-                </div>
-                <div class="col-sm-1">
-                     
-                </div>
-                <div class="col-sm-3">
-                    <br>
-                    <div><b> Iyad Badache</b></div><br>
-                    <div> web designer </div>                     
-                </div> 
-            </div>
-           
-       
-        </div>
-    </section>
-
-         
-           
-          <!--  <div class="col-sm-6">
-                <img class="heyimg" src="img/img5.PNG"> 
-                <div class="imgdiv">flan bn flan</div>
-                <div class="imgdiv">AI and performance Yahoo!</div>
-            </div>
-           -->    
-                
-       
-
-         <!--end div 8 -->
-
-
-
-
-<section id="contact">
-
-         <!-- start div 9-->
-    <div class="centerTitle">
-    
-        CONTACT US
+                </div><!-- end of the container -->
+            </nav>
+            <!-- End The nav bar -->
         
-    </div>
-        <!--end div 9-->
-        <!-- start div 10 -->
-    <div class="container">
-        <div class="row"> 
-            <div class="col-sm-5">
-                <br>   
-                <h1>Leave an E-mail</h1><br>
-                <div class="textemail"> Just fill out the form and our support team will get back at you within 24 hours.</div>
-            </div>
-       
-            <div class="col-sm-7">
-                <div class="row">
-                    <div class="col-sm-12"> 
-                        <input class="inp" placeholder="Your E-mail adress" name="e-mail" type="email" required>
+            <!-- The Background -->
+            <div class="background">
+                <div class="bigimg">
+                    <img class="bigbrand" src="img/Frame_1_brand.svg" width="430px" height="auto" >
+                    <div class="intro-brand">   
+                        Artificial Intelligence Excellence Laboratory <br>
+                        20 August 1955 Skikda University
                     </div>
-                    <div class="col-sm-12">
-                        <textarea class="inp"   name = "description" placeholder="write your lettre here"></textarea>
-                    </div>
-                    <div class="col-sm-12">
-                        <button class="subbtn" value="button"> SUBMIT NOW</button>
-                    </div>
+                    <button type="button" class="discoverBtn">  DISCOVER NOW  </button>  
                 </div>
             </div>
+        </header>
+        <!-- End of the header-->
 
-            <!--   <div class="col-sm-7">
-                    <form>
-                        <input class="inp" placeholder="Your E-mail adress" name="e-mail" type="email" required><br>
-                        <textarea class="inp"  placeholder="write your lettre here"></textarea>
-                    </form>
-                </div>-->
-        </div>
-
-    </div>
-    <!--end div 10 -->
-</section>
-
-<!--start div 11 -->
-<footer>
-    <div class="container-fluid lastone">
-        <div class="row">
-            <div class="col-sm-2">
-            <!-- let this empty for holding 2 grids-->
-            </div>
-            <div class="col-sm-3">
-                <div class="adclas" >
-                    Address
-                </div>
-                
-                <div class="coclas">
-                    University Of 20 August 1955 Skikda Algeria
-                </div>
-                
-                <div class="copclas">
-                    Copyright 2020 Skailab
-                </div>
-            </div>
-            <div class="col-sm-1">
-                <!-- let this empty for holding 1 grids-->
-            </div>
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="toclas">
-                            Get in Touch
-                        </div> 
-                        <div class="emclas">
-                            Skailabcenter@Gmail.Com
-                        </div>
-                        <div class="font-social fontclas"> 
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="f_logo" src="img/f_logo.svg" >
-                    </div>
-                </div>
+        <!-- begin section Discover -->
+        <section>
+            <!--  start other div s -->
+            <!-- start div 1-->
+            <div class="centerTitle">
             
-                <div class="row padd">
-                    <div class="col-sm-4">
-                        <img class="center1" src="img/Group.png">
+                    DISCOVER
+            
+            </div>
+            <!--end div 1 -->
+            <!-- start div 2 -->
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-sm-6">
+                        <span class="discoverTitle">WHAT IS SKAILAB ? </span>
+                        <div class="discoverText">SKAILAB is the first Artificial Intelligence Center in Algeria. 
+                            It was build with the HPC of the University of skikda, 
+                            August, 20th 1955 North east of Algeria
+                        </div>
+                        <a ></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <!--****************** IMPORTANT *****************-->
+                        <!-- video is here , ger the link and put  it here-->
+        <!-------------------------------------------------->
+
+                            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+            <div class="videob">
+
+                <div class="wrapper">
+                    <video class="video">
+                        <source src="http://e14aaeb709f7cde1ae68-a1d0a134a31b545b257b15f8a8ba5726.r70.cf3.rackcdn.com/projects/31432/1427815464209-bf74131a7528d0ea5ce8c0710f530bb5/1280x720.mp4" type="video/mp4"/>   <!--- put the link here -->
+                    </video>
+                    <div class="buttons">
+                        <div class="play-btn">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+
+                <!--     <div class="playpause"></div>    -->
+
+                </div>
+            </div>
+
+
+
+        <!----------------------------------------------->
+        
+                        
+                    </div>
+                </div>
+            </div>
+            <!--end div 2 -->
+
+        <!-- End section Discover -->
+
+        <!-- Begin section projetcs -->
+
+        <section id="projects">
+            <!-- start div 3-->
+            <div class="centerTitle">
+            
+                PROJECTS
+                
+            </div>
+                <!--end div 3 -->
+
+            <!-- start div 4 -->
+            <div class="container">
+                <div class="row"> 
+                
+                    <div class="col-sm-5 algeria">
+                        <img  src="img/algeria.svg">
+                    </div>
+                    <div class="col-sm-7">
+                    <ul class="myulAlgeria" >
+                        <li class="redpoint"> Neonatal jaundice Detection  in Algeria Using AI </li>
+
+                        <li class="redpoint"> A Hybrid Solution For Pattern Recognition: Face and Speech </li>
+
+                        <li class="redpoint"> Smole Detection in Algeria Monitorinf and air Pollutin Reduction  </li>
+
+                        <li class="redpoint"> Deep learning fr Equity Education  </li>
+
+                        <li class="redpoint"> Lung disease AI Classifier </li>
+
+                    </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--end div 4 -->
+        </section>
+
+        <!-- End section projetcs -->
+
+        <!-- Begin section Goals -->
+
+        <section id="goals">
+                <!-- start div 5-->
+                <div class="centerTitle">
+                    
+                    GOALS
+                    
+                </div>
+                <!--end div 5 -->
+                <!-- start div 6 -->
+                <div class="container ">
+
+                    <div class="row"> 
+
+                        <div class="col-sm-4">
+                            <img class="cardimg" src="img/c1.jpg">
+                            <div class="insidecard">
+                                <span class="titleInCard">  
+                                    Tackle University problems using AI 
+                                </span>
+                                <br><br>
+                                <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
+                                    <span  id="dots1">...</span>
+                                    <span class="mor" id="more1">
+                                        erisque enim ligula venenatis dolor. Maecenas nisl est,
+                                        ultrices nec congue eget, auctor vitae massa.
+                                        
+                                    </span>
+                                </p>
+                                <a class="linkReadMore" onclick="myFunction1()" id="myBtn1">Read more</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img class="cardimg" src="img/c2.png">
+                            <div class="insidecard">
+                                <span class="titleInCard">  
+                                    Tackle University problems using AI 
+                                </span>
+                                <br><br>
+                                <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
+                                    <span  id="dots2">...</span>
+                                    <span class="mor" id="more2">
+                                        erisque enim ligula venenatis dolor. Maecenas nisl est,
+                                        ultrices nec congue eget, auctor vitae massa.
+                                        
+                                    </span>
+                                </p>
+                                <a class="linkReadMore" onclick="myFunction2()" id="myBtn2">Read more</a>
+                            </div>
+                        </div> 
+                        
+
+                        <div class="col-sm-4">
+                            <img class="cardimg" src="img/c3.jpg">
+                            <div class="insidecard">
+                                <span class="titleInCard">  
+                                    Tackle University problems using AI 
+                                </span>
+                                <br><br>
+                                <p class="textInCard">Lorem ipsum dolor sit amet, consectetur  
+                                    <span  id="dots3">...</span>
+                                    <span class="mor" id="more3">
+                                        erisque enim ligula venenatis dolor. Maecenas nisl est,
+                                        ultrices nec congue eget, auctor vitae massa.
+                                        
+                                    </span>
+                                </p>
+                                <a class="linkReadMore" onclick="myFunction3()" id="myBtn3">Read more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--end div 6 -->
+
+            </section>
+
+        <!-- End section Goals -->
+
+        <!-- Begin section Team -->
+
+        <section id="team"> 
+                <!-- start div 7-->
+                <div class="centerTitle">
+
+                    TEAM
+                    
+                </div>
+                <!--end div 7 -->
+                <!-- start div 8 -->
+                <div class="container imgs">
+                    <div class="row"> 
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p0.png"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Dr.Mourad Bouache </b></div><br>
+                            <div> AI and Performance Yahoo!  Silicon valley
+                            </div> 
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p1.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Dr.Mohamed Senouci </b></div><br>
+                            <div>Professor ar ECE Paris</div>                     
+                        </div> 
+                    </div>
+                    <div class="sparator"></div>
+
+                    <div class="row"> 
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p2.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Pr.Salim Haddad</b></div><br>
+                            <div>President of the University of Skikda</div> 
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p3.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Pr.Smaine Mazouzi </b></div><br>
+                            <div>Professor at the University of Skikda | CS</div>                     
+                        </div> 
+                    </div>
+                    <div class="sparator"></div>
+                    <div class="row"> 
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p4.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Isra Boucetta</b></div><br>
+                            <div> Middle School Student</div> 
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p5.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Yasmine Lala Bouali</b></div><br>
+                            <div> Master 2 CS Student </div>                     
+                        </div> 
+                    </div>
+                    <div class="sparator"></div>
+                    <div class="row"> 
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p6.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br><br>
+                            <div><b>  Sofia Smati </b></div><br>
+                            <div>  Master 2 CS Student</div> 
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p7.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Safa Hamreras </b></div><br>
+                            <div>PhD Student CS</div>                     
+                        </div> 
+                    </div>
+                    <div class="sparator"></div>
+                    <div class="row"> 
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p8.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Abderrahmane Bououden </b></div><br>
+                            <div> PhD Student </div> 
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="heyimg" src="pimg/p9.jpg"> 
+                        </div>
+                        <div class="col-sm-1">
+                            
+                        </div>
+                        <div class="col-sm-3">
+                            <br>
+                            <div><b> Iyad Badache</b></div><br>
+                            <div> web designer </div>                     
+                        </div> 
+                    </div>
+                
+            
+                </div>
+                <!--end div 8 -->
+            </section>
+
+        <!-- End section Team -->
+
+        <!-- Begin section Contact -->
+
+        <section id="contact">
+
+                <!-- start div 9-->
+            <div class="centerTitle">
+            
+                CONTACT US
+                
+            </div>
+                <!--end div 9-->
+                <!-- start div 10 -->
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-sm-5">
+                        <br>   
+                        <h1>Leave an E-mail</h1><br>
+                        <div class="textemail"> Just fill out the form and our support team will get back at you within 24 hours.</div>
+                    </div>
+            
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-sm-12"> 
+                                <input class="inp" placeholder="Your E-mail adress" name="e-mail" type="email" required>
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea class="inp"   name = "description" placeholder="write your lettre here"></textarea>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="subbtn" value="button"> SUBMIT NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--   <div class="col-sm-7">
+                            <form>
+                                <input class="inp" placeholder="Your E-mail adress" name="e-mail" type="email" required><br>
+                                <textarea class="inp"  placeholder="write your lettre here"></textarea>
+                            </form>
+                        </div>-->
+                </div>
+
+            </div>
+            <!--end div 10 -->
+        </section>
+
+        <!-- Begin section Contact -->
+
+        <!-- Begin Footer -->
+        <footer>
+            <!--start div 11 -->
+            <div class="container-fluid lastone">
+                <div class="row">
+                    <div class="col-sm-2">
+                    <!-- let this empty for holding 2 grids-->
                     </div>
                     <div class="col-sm-3">
-                        <img class="center1" src="img/limitlesslogo.svg">
+                        <div class="adclas" >
+                            Address
+                        </div>
+                        
+                        <div class="coclas">
+                            University Of 20 August 1955 Skikda Algeria
+                        </div>
+                        
+                        <div class="copclas">
+                            Copyright 2020 Skailab
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="center1" src="img/univ.svg">
+                    <div class="col-sm-1">
+                        <!-- let this empty for holding 1 grids-->
                     </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="toclas">
+                                    Get in Touch
+                                </div> 
+                                <div class="emclas">
+                                    Skailabcenter@Gmail.Com
+                                </div>
+                                <div class="font-social fontclas"> 
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="f_logo" src="img/f_logo.svg" >
+                            </div>
+                        </div>
                     
+                        <div class="row padd">
+                            <div class="col-sm-4">
+                                <img class="center1" src="img/Group.png">
+                            </div>
+                            <div class="col-sm-3">
+                                <img class="center1" src="img/limitlesslogo.svg">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="center1" src="img/univ.svg">
+                            </div>
+                            
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
+            <!--end div 11 -->
 
-        </div>
+        </footer>
+        <!-- End Footer -->
 
-    </div>
-</footer>
-<!--end div 11 -->
-
-    <!--  end  div s    -->
-    <script src='bs/js/bootstrap.js'></script> 
-    <script src='bs/js/bootstrap.min.js'></script>
-    <script src='bs/js/npm.js'></script> 
-    <script src='js/js.js'></script>
+        <!--  end  div s    -->
 
 
+        <!--   start JS -->
 
+            <script src='bs/js/bootstrap.js'></script> 
+            <script src='bs/js/bootstrap.min.js'></script>
+            <script src='bs/js/npm.js'></script> 
+            <script src='js/js.js'></script>
 
-<!--
-    start modification button 
--->
+        <script>
+                    
+        function myFun() {
+            var dots3 = document.getElementById("dots3");
+            var moreText3 = document.getElementById("more3");
+            var btnText3 = document.getElementById("myBtn3");
 
+            if (dots3.style.display === "none") {
+                dots3.style.display = "inline";
+                btnText3.innerHTML = "Read more"; 
+                moreText3.style.display = "none";
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<script src="https://kit.fontawesome.com/c905dbcf97.js" crossorigin="anonymous"></script>
- 
-<script>
-    $('.video').parent().click(function () {
-        if($(this).children(".video").get(0).paused){
-            $(this).children(".video").get(0).play();
-            $(this).children(".buttons").fadeOut();
-        }else{
-        $(this).children(".video").get(0).pause();
-            $(this).children(".buttons").fadeIn();
+            } else {
+                dots3.style.display = "none";
+                btnText3.innerHTML = "Read less"; 
+                moreText3.style.display = "inline";
+            }
         }
-    });
-</script>
-
-
-<!--    End modification button  -->
-
-<!--    Read More   -->
-
-<script>
-    function myFunction1() {
-      var dots1 = document.getElementById("dots1");
-      var moreText1 = document.getElementById("more1");
-      var btnText1 = document.getElementById("myBtn1");
-
-      if (dots1.style.display === "none") {
-        dots1.style.display = "inline";
-        btnText1.innerHTML = "Read more"; 
-        moreText1.style.display = "none";
-
-      } else {
-        dots1.style.display = "none";
-        btnText1.innerHTML = "Read less"; 
-        moreText1.style.display = "inline";
-      }
-    }
-
-    function myFunction2() {
-      var dots2 = document.getElementById("dots2");
-      var moreText2 = document.getElementById("more2");
-      var btnText2 = document.getElementById("myBtn2");
-
-      if (dots2.style.display === "none") {
-        dots2.style.display = "inline";
-        btnText2.innerHTML = "Read more"; 
-        moreText2.style.display = "none";
-
-      } else {
-        dots2.style.display = "none";
-        btnText2.innerHTML = "Read less"; 
-        moreText2.style.display = "inline";
-      }
-    }
-
-    function myFunction3() {
-      var dots3 = document.getElementById("dots3");
-      var moreText3 = document.getElementById("more3");
-      var btnText3 = document.getElementById("myBtn3");
-
-      if (dots3.style.display === "none") {
-        dots3.style.display = "inline";
-        btnText3.innerHTML = "Read more"; 
-        moreText3.style.display = "none";
-
-      } else {
-        dots3.style.display = "none";
-        btnText3.innerHTML = "Read less"; 
-        moreText3.style.display = "inline";
-      }
-    }
- </script>
-
-
-
-<!-- nav bar -->
-
-<script>
-$(function () {
-    $(document).scroll(function () {
-        var $nav = $(".navbar-fixed-top");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $(".background").height());
-      });
-  });
-</script>
-
-<!-- end Read More -->
-
-
-
-<!--  end nav bar -->
-
-
-<script>
-
-$("#state option").text(function(idx, txt) {
-    if(txt==="Please Select...") return "Choose a State";
-  });
-
-</script>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        </script>
 
 
 
 
 
-<script>
-    $(function() {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1800);
-            return false;
-          }
-        }
-      });
-    });
-</script>
-
-
-
-
-</body>
+    </body>
 </html>
-
-
-
-
-
-<!--
-
-    
-
-    <header>
-        <nav id="navigation" class="navbar navbar-dark bg-primary navbar-fixed-top">		
-			<ul class="nav navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-				<li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
-				<li class="nav-item"><a href="#contact-us" class="nav-link">Contact us</a></li>
-			</ul>
-        </nav>
-    </header>
-    
-    
--->
-
