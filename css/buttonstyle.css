@@ -56,7 +56,7 @@
    box-shadow:1px 1px 10px 0px rgb(252,64,101);
 }
 
-.fas{
+.fan-play{
    color : #fff ;
    font-size:15px;
 }
@@ -70,14 +70,14 @@
    color:white;
    color:rgb(252,64,101);
    border: 0.5px solid;
-   outline:none;
+  /* outline:none;  */ 
    cursor: pointer;
 }
 
 .wrapper{
-    display:table;
-    width:auto;
-    position:relative;
-    width:100%;
+   display:table;
+   width:auto;
+   position:relative;
+   width:100%;
 }
  
