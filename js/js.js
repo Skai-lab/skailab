@@ -103,3 +103,25 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 });
 
 /* end GO to place  */
+
+
+ /* read more 
+
+function myFun() {
+    var dots3 = document.getElementById("dots3");
+    var moreText3 = document.getElementById("more3");
+    var btnText3 = document.getElementById("myBtn3");
+
+    if (dots3.style.display === "none") {
+        dots3.style.display = "inline";
+        btnText3.innerHTML = "Read more";
+        moreText3.style.display = "none";
+
+    } else {
+        dots3.style.display = "none";
+        btnText3.innerHTML = "Read less";
+        moreText3.style.display = "inline";
+    }
+}
+ 
+/* read more */ 
