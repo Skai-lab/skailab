@@ -105,7 +105,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 /* end GO to place  */
 
 
- /* read more 
+ /* read more  */ 
 
 function myFun() {
     var dots3 = document.getElementById("dots3");
