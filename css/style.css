@@ -175,14 +175,16 @@ li .el-navbar:active{
 
 
 
-.centerTitle{
-  padding: 180px 50px 120px 50px;
-  font-size: 35px;
-  text-align: center;
-  font-weight: 900;
+.center-title{
+    padding: 180px 50px 120px 50px;
+    text-align: center;
+}
+.center-title h3{
+    font-size: 35px;
+    font-weight: 900;
 }
 
-.discoverTitle{
+.discover-title{
   text-align: center;
   display: block;
   font-size: 30px;
@@ -190,7 +192,7 @@ li .el-navbar:active{
   margin-right: 50px;
   font-weight: 1000;
 }
-.discoverText{
+.discover-text{
   
   margin-left: 120px;
   width: 390px;
@@ -207,7 +209,7 @@ li .el-navbar:active{
   
 }
 
-.myulAlgeria{
+.projects-list{
   padding:25px;
   list-style: none;
 }
@@ -252,7 +254,7 @@ li .el-navbar:active{
   text-align: center;
   
 }
-.titleInCard{
+.-titleInCard{
   font-weight: 700;
   font-size: 17px;
   text-align: center;
