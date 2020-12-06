@@ -14,7 +14,10 @@ $('.video').parent().click(function () {
 
 
 
-/*  End modification button   Read More   */
+/*  End modification button  
+
+        Read More   */
+
 function myFunction1() {
 var dots1 = document.getElementById("dots1");
 var moreText1 = document.getElementById("more1");
@@ -24,11 +27,15 @@ if (dots1.style.display === "none") {
     dots1.style.display = "inline";
     btnText1.innerHTML = "Read more"; 
     moreText1.style.display = "none";
+    $('.insidecard1').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
 
 } else {
     dots1.style.display = "none";
     btnText1.innerHTML = "Read less"; 
     moreText1.style.display = "inline";
+    $('.insidecard1').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+
 }
 }
 
@@ -41,11 +48,15 @@ if (dots2.style.display === "none") {
     dots2.style.display = "inline";
     btnText2.innerHTML = "Read more"; 
     moreText2.style.display = "none";
+    $('.insidecard2').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
 
 } else {
     dots2.style.display = "none";
     btnText2.innerHTML = "Read less"; 
     moreText2.style.display = "inline";
+    $('.insidecard2').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+
 }
 }
 
@@ -58,11 +69,14 @@ function myFunction3() {
         dots3.style.display = "inline";
         btnText3.innerHTML = "Read more"; 
         moreText3.style.display = "none";
+        $('.insidecard3').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
 
     } else {
         dots3.style.display = "none";
         btnText3.innerHTML = "Read less"; 
         moreText3.style.display = "inline";
+        $('.insidecard3').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
     }
 }
 
@@ -107,21 +121,5 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 
  /* read more  */ 
 
-function myFun() {
-    var dots3 = document.getElementById("dots3");
-    var moreText3 = document.getElementById("more3");
-    var btnText3 = document.getElementById("myBtn3");
 
-    if (dots3.style.display === "none") {
-        dots3.style.display = "inline";
-        btnText3.innerHTML = "Read more";
-        moreText3.style.display = "none";
-
-    } else {
-        dots3.style.display = "none";
-        btnText3.innerHTML = "Read less";
-        moreText3.style.display = "inline";
-    }
-}
- 
 /* read more */ 
