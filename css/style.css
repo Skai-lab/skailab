@@ -1,23 +1,21 @@
 /**/
 @import "bs4.min.css";
- 
-*{
-  margin  : 0px ;
-  padding : 0px ; 
-  font-size:19px ;
-  font-family: 'Open Sans', sans-serif;  
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
 }
 
-body { 
-  padding-top: 0px; 
+body {
+    padding-top: 0px;
 }
 
- /*********************  DROP DOWN  ***********************/
-.fa .fa-caret-down{
-  font-size: 3px;
+/*********************  DROP DOWN  ***********************/
+.fa .fa-caret-down {
+    font-size: 3px;
 }
- 
-  
 
 /*
 
@@ -41,247 +39,221 @@ body {
 
 */
 
- 
-
+.navbar-fixed-top.scrolled {
+    background-color: rgba(240, 54, 76, 0.9) !important;
+    transition: background-color 550ms linear;
+}
 
 .navbar-fixed-top.scrolled {
-  background-color: rgba(240, 54, 76, 0.9) !important;
-  transition: background-color 550ms linear;
-}
-
-.navbar-fixed-top.scrolled{
-  color:rgb(238, 153, 153);
+    color: rgb(238, 153, 153);
 }
 /*************** FIN OF DROP DOWN **********************/
-
-
 
 /*
 * navbar modfications 
 */
-.navbar-center{
-  display: flex;
-  justify-content: center;
+.navbar-center {
+    display: flex;
+    justify-content: center;
 }
 
-
-.navbar-default{
-
-  background: transparent  ;
-  /*background: rgba(240, 54, 76, 1);*
+.navbar-default {
+    background: transparent;
+    /*background: rgba(240, 54, 76, 1);*
 
  
   /
     rgba(233, 59, 36 , 0.1);
   */
-  padding: 15px;
-  height: auto;
-  border-color: transparent;
-  color :#FFFFFF;
-
+    padding: 15px;
+    height: auto;
+    border-color: transparent;
+    color: #ffffff;
 }
 
-.navbar-default .navbar-nav>li>a{
-  color : #FFFFFF;
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
 }
 
-.navbar-default .navbar-nav>li>a{
-  margin-top: 30px;
-  padding: 25px;
+.navbar-default .navbar-nav > li > a {
+    margin-top: 30px;
+    padding: 25px;
 }
 
-
-.el-navbar{
-  padding: 0px 17px;
-  font-size: 20px;
+.el-navbar {
+    padding: 0px 17px;
+    font-size: 20px;
 }
 
-li .el-navbar:active{
- color: red;
+li .el-navbar:active {
+    color: red;
 }
 /*
 * End navbar modification
 */
-  
-.background{
-  padding-top: 130px ;
 
-  /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
-  background : linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)), url('../img/bigbg.jpg');
-  /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
- /* height: 120vh;*/
- background-repeat: no-repeat;
- background-size: cover;
- height:auto;
+.background {
+    padding-top: 130px;
 
-  }
-
-
-
+    /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
+    background: linear-gradient(
+            15.67deg,
+            rgba(233, 59, 36, 0.6),
+            rgba(170, 44, 157, 0.167)
+        ),
+        url("../img/bigbg.jpg");
+    /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
+    /* height: 120vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
 
 .mor {
-  display: none;
-  font-size: 15px;
+    display: none;
+    font-size: 15px;
 }
 
 .content {
-    display:none;
-}
- 
- 
-
-
-
-.bigimg{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  text-align: center; 
-
+    display: none;
 }
 
-.bigbrand{
-  margin: 50px;
+.bigimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
 
-.intro-brand{
-  font-size: 27px;
-  color: #ffffff;
-}
- 
-
-.discoverBtn{
- 
-  border: .5px solid;
-  border-radius: 43px ;
-  color :   rgba(234, 83, 113, 1);
-  background-color: #FFFFFF;
-  height: 68px;
-  width: 250px;
-  font-size: 27px;
-  font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 5em;
-  box-shadow:0px 2px 15px 0px rgb(228, 228, 228);  
-} 
-
-
-.skailogo{
-  margin-top: 25px;
-  width: 110px;
-  height: 50px;
+.bigbrand {
+    margin: 50px;
 }
 
+.intro-brand {
+    font-size: 27px;
+    color: #ffffff;
+}
 
+.discoverBtn {
+    border: 0.5px solid;
+    border-radius: 43px;
+    color: rgba(234, 83, 113, 1);
+    background-color: #ffffff;
+    height: 68px;
+    width: 250px;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5em;
+    box-shadow: 0px 2px 15px 0px rgb(228, 228, 228);
+}
 
-.center-title{
+.skailogo {
+    margin-top: 25px;
+    width: 110px;
+    height: 50px;
+}
+
+.center-title {
     padding: 180px 50px 120px 50px;
     text-align: center;
 }
-.center-title h3{
+.center-title h3 {
     font-size: 35px;
     font-weight: 900;
 }
 
-.discover-title{
-  text-align: center;
-  display: block;
-  font-size: 30px;
-  padding-bottom: 70px;
-  margin-right: 50px;
-  font-weight: 1000;
+.discover-title {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    padding-bottom: 70px;
+    margin-right: 50px;
+    font-weight: 1000;
 }
-.discover-text{
-  
-  margin-left: 120px;
-  width: 390px;
-  text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 800;
-
-}
- 
-
-.algeria{
-  padding:60px 0px 0px 110px ;
-  
+.discover-text {
+    margin-left: 120px;
+    width: 390px;
+    text-align: justify;
+    color: #000;
+    font-size: 16px;
+    font-weight: 800;
 }
 
-.projects-list{
-  padding:25px;
-  list-style: none;
+.algeria {
+    padding: 60px 0px 0px 110px;
 }
- 
+
+.projects-list {
+    padding: 25px;
+    list-style: none;
+}
+
 .redpoint::before {
-  content: "•";
-  color: red;
-  display: inline-block;
-  width: 1em;
-  margin-left: -2em;
-  font-size: 2.1em;
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+    font-size: 2.1em;
 }
 
-
-
-.cardimg{
-  width: 400px;
-  height: 350px;
-  padding: 15px;
-
+.cardimg {
+    width: 400px;
+    height: 350px;
+    padding: 15px;
 }
 
-.insidecard{
-  /*border: 5px  solid ;
-  border-color: red ;
-  text-align: center;
- /* background-color: rgb(60, 70, 60)0, 70, 60);*/
-  
+.insidecard1,.insidecard2,.insidecard3 {
 
-  position: absolute;
-  bottom: -70px;
-  right: 20px;
-  background-color: white;
-  color: black;
-  padding: 20px 30px;
-  
- /* margin-right: -25px;*/
-  width:310px;
-  height:290px;
-  box-shadow:10px 10px 10px 0px rgb(210, 210, 210);  
-  border-radius: 8px;
-  text-align: center;
-  
-}
-.-titleInCard{
-  font-weight: 700;
-  font-size: 17px;
-  text-align: center;
- }
-.textInCard{
-  font-weight: normal;
-  font-size: 14px;
-  text-align: center;
-}
-.linkReadMore{
-  font-weight: 900;
-  font-size: 12px;
-  text-align: center;
-  cursor: pointer;
-  color: red;
-}
- 
 
-.heyimg{
-  margin: 0px 30px 30px 30px;
-  border-radius: 50%;
-  
-  padding: 20px;
-  background-image: linear-gradient(to top, rgb(232,59,39),  rgb(222,74,111) );
-width: 180px;
-height: 180px;
-/*
+    position: absolute;
+    bottom: -70px;
+    right: 13px;
+    background-color: white;
+
+    color: black;
+    padding: 20px 30px;
+
+    
+    width: 310px;
+    height: 290px;
+    box-shadow: 10px 10px 10px 0px rgb(210, 210, 210);
+    border-radius: 8px;
+    text-align: center;
+}
+.-titleInCard {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.textInCard {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.linkReadMore {
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+}
+
+.heyimg {
+    margin: 0px 30px 30px 30px;
+    border-radius: 50%;
+
+    padding: 20px;
+    background-image: linear-gradient(
+        to top,
+        rgb(232, 59, 39),
+        rgb(222, 74, 111)
+    );
+    width: 180px;
+    height: 180px;
+    /*
  width: 161.04px;
 height: 161.04px;
 left: 200.96px;
@@ -291,142 +263,122 @@ background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
-.imgs{
-   padding: 50px;
-} 
-
-
-.sparator{
-  height: 50px;
- 
+.imgs {
+    padding: 50px;
 }
 
-
-
-
-
-
-
-
-
-.inp{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-  padding: 17px;
-  margin: 20px;
-  border: 2px solid;
-  border-radius: 10px;
-  width: 600px;
-  resize: none;
-}
- 
-
-textarea{
-  height: 190px;  
-}
-.textemail{
-  inline-size: 425px;
-  font-size: 22px;
+.sparator {
+    height: 50px;
 }
 
-.lastone{
- 
-  background: linear-gradient(to left, rgb(197,40,69), rgb(118,45,59));
-  padding: 60px 50px 50px 0px;
-  color: #FFFFFF;
+.inp {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 17px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 600px;
+    resize: none;
 }
 
-.adclas{
-  font-weight:700;
-  font-size:22px ;
+textarea {
+    height: 190px;
 }
-.coclas{
-  padding-top: 55px;
-  line-height: 35px;
-  width: 250px;
-  font-size: 21px;
-}
-.copclas{
-  padding-top: 50px;
-  font-size: 24px;
+.textemail {
+    inline-size: 425px;
+    font-size: 22px;
 }
 
-
-.toclas{
-font-size: 20px;
-font-weight: 600;
-}
-.emclas{
-  font-size: 17px;
-padding-top: 50px;
-}
-.fontclas{
-padding-top: 50px;
+.lastone {
+    background: linear-gradient(to left, rgb(197, 40, 69), rgb(118, 45, 59));
+    padding: 60px 50px 50px 0px;
+    color: #ffffff;
 }
 
-
-
-.fan-icon{
-  font-size: 42px;
-  color: #FFFFFF;
-  padding-right: 50px;
+.adclas {
+    font-weight: 700;
+    font-size: 22px;
+}
+.coclas {
+    padding-top: 55px;
+    line-height: 35px;
+    width: 250px;
+    font-size: 21px;
+}
+.copclas {
+    padding-top: 50px;
+    font-size: 24px;
 }
 
-.f_logo{
-  padding-top:25px;
-  width : 180px ; 
-  height : auto ; 
+.toclas {
+    font-size: 20px;
+    font-weight: 600;
+}
+.emclas {
+    font-size: 17px;
+    padding-top: 50px;
+}
+.fontclas {
+    padding-top: 50px;
 }
 
-.padd{
-  padding-top: 70px;
-  
+.fan-icon {
+    font-size: 42px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+.f_logo {
+    padding-top: 25px;
+    width: 180px;
+    height: auto;
+}
+
+.padd {
+    padding-top: 70px;
 }
 
 .center1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer{
-  height:100%;
+footer {
+    height: 100%;
 }
 
-
- .dropdownxx{
-   margin-top: -5px; 
- }
-
-.inputbox{
-  font-size: 20px;
-  font-weight: 1000;
-  background: transparent;
-  border: none;
-  color: #004;
+.dropdownxx {
+    margin-top: -5px;
 }
-.inputbox:hover , .inputbox::after , .inputbox::before , .inputbox:focus  {
-  border: none;
+
+.inputbox {
+    font-size: 20px;
+    font-weight: 1000;
+    background: transparent;
+    border: none;
+    color: #004;
 }
- 
+.inputbox:hover,
+.inputbox::after,
+.inputbox::before,
+.inputbox:focus {
+    border: none;
+}
+
 .select {
-  border: 20px;
-  }
-
-.subbtn{
-  padding: 13px 34px;
-
-
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-  margin: 20px;
-  resize: none;
-
-  background: linear-gradient(180deg, #DA454B 0%, #E63B6E 100%);
-  border:none;
-  border-radius: 6px;
-  color:#fff;
-
+    border: 20px;
 }
 
+.subbtn {
+    padding: 13px 34px;
 
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 20px;
+    resize: none;
 
+    background: linear-gradient(180deg, #da454b 0%, #e63b6e 100%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
