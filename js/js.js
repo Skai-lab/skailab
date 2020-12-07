@@ -84,8 +84,72 @@ function myFunction3() {
 }
 
 
+function myFunction4() {
+var dots4 = document.getElementById("dots4");
+var moreText4 = document.getElementById("more4");
+var btnText4 = document.getElementById("myBtn4");
+
+if (dots4.style.display === "none") {
+    dots4.style.display = "inline";
+    btnText4.innerHTML = "Read more"; 
+    moreText4.style.display = "none";
+    $('.insidecard4').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
+
+} else {
+    dots4.style.display = "none";
+    btnText4.innerHTML = "Read less"; 
+    moreText4.style.display = "inline";
+    $('.insidecard4').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+
+}
+}
+
+function myFunction5() {
+var dots5 = document.getElementById("dots5");
+var moreText5 = document.getElementById("more5");
+var btnText5 = document.getElementById("myBtn5");
+
+if (dots5.style.display === "none") {
+    dots5.style.display = "inline";
+    btnText5.innerHTML = "Read more"; 
+    moreText5.style.display = "none";
+    $('.insidecard5').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
+
+} else {
+    dots5.style.display = "none";
+    btnText5.innerHTML = "Read less"; 
+    moreText5.style.display = "inline";
+    $('.insidecard5').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+
+}
+}
+
+function myFunction6() {
+var dots6 = document.getElementById("dots6");
+var moreText6 = document.getElementById("more6");
+var btnText6 = document.getElementById("myBtn6");
+
+if (dots6.style.display === "none") {
+    dots6.style.display = "inline";
+    btnText6.innerHTML = "Read more"; 
+    moreText6.style.display = "none";
+    $('.insidecard6').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+
+
+} else {
+    dots6.style.display = "none";
+    btnText6.innerHTML = "Read less"; 
+    moreText6.style.display = "inline";
+    $('.insidecard6').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+
+}
+}
+
 
 /*  end Read More satrt nav bar */
+
 
 $(function () {
     $(document).scroll(function () {
