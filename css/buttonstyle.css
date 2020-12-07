@@ -21,13 +21,13 @@
 
 .videob .play-btn{
    background: rgb(252,64,101);
-   color: fff;
+   
    width: 70px;
    height: 70px;
-   margin: auto;
+   
    text-align: center;
    border-radius: 50%;
-   margin: 200px;
+   
    margin-left:-35px;
    background-repeat:no-repeat;
    position:absolute;
