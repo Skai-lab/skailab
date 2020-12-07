@@ -41,13 +41,11 @@ body {
 
 .navbar-fixed-top.scrolled {
     background-color: rgba(240, 54, 76, 0.9) !important;
-    transition: background-color 550ms linear;
+    margin-top: -30px !important;
+    transition: all 550ms linear;
 }
 
 
-.navbar-fixed-top.scrolled {
-    color: rgb(238, 153, 153);
-}
 /*************** FIN OF DROP DOWN **********************/
 
 /*
@@ -64,7 +62,7 @@ body {
 
  
   /
-    rgba(233, 59, 36 , 0.1);
+    rgba(233, 59, 36 , 0.1); 
   */
     padding: 15px;
     height: auto;
@@ -79,7 +77,7 @@ body {
 .navbar-default .navbar-nav > li > a {
     margin-top: 30px;
     padding: 25px;
-}
+ }
 
 .el-navbar {
     padding: 0px 17px;
@@ -206,7 +204,7 @@ li .el-navbar:active {
     padding: 15px;
 }
 
-.insidecard1,.insidecard2,.insidecard3 {
+.insidecard1,.insidecard2,.insidecard3,.insidecard4,.insidecard5,.insidecard6 {
 
 
     position: absolute;
@@ -394,3 +392,6 @@ select option {
 }
 
 
+.first-row{
+    margin-bottom: 200px;
+}
