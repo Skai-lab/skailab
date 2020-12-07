@@ -10,7 +10,10 @@ $('.video').parent().click(function () {
     $(this).children(".video").get(0).pause();
         $(this).children(".buttons").fadeIn();
     }
+
 });
+
+
 
 
 
@@ -93,10 +96,6 @@ $(function () {
 
 
 
-$("#lang option").text(function(idx, txt) {
-    if(txt==="Please Select...") return "Choose a lang";
-});
-
 
 /*  end nav bar  start  GO to place  */
 
@@ -119,7 +118,11 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 /* end GO to place  */
 
 
- /* read more  */ 
+// $('.inputbox').parent().click(function () {
+//     if($('.inputbox').css({"background-color":"blue"})){
+//         $('.inputbox').css({"background-color":"rgba(240, 54, 76, 0.9)","transition":"1s"});
+//     }else{
+//         $('.inputbox').css({"background-color":"blue","transition":"1s"});
+//     }
 
-
-/* read more */ 
+// }); 

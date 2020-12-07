@@ -44,6 +44,7 @@ body {
     transition: background-color 550ms linear;
 }
 
+
 .navbar-fixed-top.scrolled {
     color: rgb(238, 153, 153);
 }
@@ -353,22 +354,31 @@ footer {
 }
 
 .inputbox {
+    width:80px;
+    padding:0px 8px;
     font-size: 20px;
     font-weight: 1000;
     background: transparent;
     border: none;
-    color: #004;
-}
+    color: #fff;
+
+} 
+/*
 .inputbox:hover,
 .inputbox::after,
 .inputbox::before,
 .inputbox:focus {
     border: none;
 }
+*/
 
-.select {
-    border: 20px;
+
+select option {
+    color: #000 !important;
+    padding: 30px;
 }
+
+
 
 .subbtn {
     padding: 13px 34px;
@@ -382,3 +392,5 @@ footer {
     border-radius: 6px;
     color: #fff;
 }
+
+
