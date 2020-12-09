@@ -56,7 +56,7 @@ body {
     justify-content: center;
 }
 
-.navbar-default {
+.navbar-expand-lg  {
     background: transparent;
     /*background: rgba(240, 54, 76, 1);*
 
@@ -70,18 +70,23 @@ body {
     color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-expand-lg .navbar-nav{
+    margin-left: 3rem;
+}
+
+.navbar-expand-lg  .navbar-nav > li > a {
     color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-expand-lg  .navbar-nav li {
     margin-top: 30px;
     padding: 25px;
  }
 
 .el-navbar {
-    padding: 0px 17px;
+    margin: 0 0.3em 0 0.3em;
     font-size: 20px;
+    z-index: 1;
 }
 
 li .el-navbar:active {
