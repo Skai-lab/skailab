@@ -189,8 +189,19 @@ li .el-navbar:active {
 }
 
 .projects-list {
-    padding: 25px;
+    padding: 1.4em;
     list-style: none;
+}
+.projects-list  li a, .projects-list  li:hover  a{
+    color: #000;
+}
+.projects-list  li:hover{
+    text-decoration: underline;
+}
+
+.projects-list  .fa-link{
+    font-size: 0.8em;
+    margin-left: 0.4em;
 }
 
 .redpoint::before {
@@ -418,3 +429,6 @@ select option {
 #goals{
     margin-bottom: 12rem;
 }
+
+
+/* projects section */
