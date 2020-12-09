@@ -421,6 +421,8 @@ select option {
 }
 
 
+
+
 .first-row{
     margin-bottom: 200px;
 }
@@ -431,4 +433,17 @@ select option {
 }
 
 
-/* projects section */
+/* footer section */
+
+.font-social a {
+    color: white;
+    font-size: 2em;
+}
+
+.font-social{
+
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     max-width: 70%;
+}
