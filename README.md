@@ -63,7 +63,15 @@ If you want to send us a join a request do the following :
 
 - Add your picture under the folder [data/pimage](https://github.com/Skai-lab/skailab/tree/master/data/pimage)
 - go to the [index.html](https://github.com/Skai-lab/skailab/blob/master/index.html) file 
-- copy this code 
+- search for this comment in the index.html 
+```
+ <!-- ADD THE NEW MEMBER HERE BELOW -->
+
+
+ <!-- ADD THE NEW MEMBER HERE ABOVE-->
+```
+
+- copy this code  and past it there 
 
 ```html
  <div class=" col-md-6 card mb-3" style="max-width: 540px;">
