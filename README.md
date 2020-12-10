@@ -73,8 +73,7 @@ If you want to send us a join a request do the following :
         </div>
         <div class="col-md-8">
             <div class="card-body ml-2">
-                <h5 class="card-title mb-4 mt-1">[YOUR FULL NAME HERE]<br>
-                    <span class="badge bg-secondary mb-1">[</span></h5>
+                <h5 class="card-title mb-4 mt-1">[YOUR FULL NAME HERE]<br></h5>
                 <p class="card-text">[YOUR SHORT BIO HERE](no more then 8 words please)</p>
             </div>
         </div>
