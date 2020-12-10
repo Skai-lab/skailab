@@ -15,14 +15,14 @@ assets/bootstrap :  bootstrap 5 files
 data/pimg :  team members images 
 
 ## Table of Content
-- [dzCode.io](#dzcodeio)
+- [skailab](skailab)
   - [Meta](#meta)
   - [Table of Content](#table-of-content)
-  - [Get Started](#get-started)
+  - [Get Started](#gettin-started)
     - [Perquisites](#perquisites)
     - [Run it locally](#run-it-locally)
   - [Contributing](#contributing)
-    - [Fix Typos, or Edit web page](#fix-typos-or-edit-web-page)
+    - [Fix Typos, or Edit web page](#update-web-page-or-fixing-typos)
     - [Send join request](#send-join-request)
   - [License](#license)
   
