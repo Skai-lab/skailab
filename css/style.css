@@ -261,7 +261,6 @@ li .el-navbar:active {
 }
 
 .heyimg {
-    margin: 0px 30px 30px 30px;
     border-radius: 50%;
 
     padding: 20px;
@@ -272,14 +271,6 @@ li .el-navbar:active {
     );
     width: 180px;
     height: 180px;
-    /*
- width: 161.04px;
-height: 161.04px;
-left: 200.96px;
-top: 2851.3px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .imgs {
@@ -437,7 +428,17 @@ select option {
     margin-bottom: 12rem;
 }
 
+/* team section */
+#team .card{
+    border: none;
+}
+#team h5{
+    font-weight: bolder;
+}
 
+#team .container .row{
+    margin-left: 5%;
+}
 /* footer section */
 
 .font-social a {
