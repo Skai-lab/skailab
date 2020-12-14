@@ -20,7 +20,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- Last Version -->
     <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
 
@@ -28,6 +30,7 @@
 
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/buttonstyle.css'>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 </head>
 
@@ -567,10 +570,11 @@
                     </div>
 
                     <div class="col-sm-7">
-                        <form>
+                        <form action="https://send.pageclip.co/e7NFMeFC0p25DKOpLN8kQnXCarSW3DsG/skailab"
+                            class="pageclip-form" method="post">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <input class="inp" placeholder="Your E-mail adress" name="e-mail" type="email"
+                                    <input class="inp" placeholder="Your E-mail adress" name="email" type="email"
                                         required>
                                 </div>
                                 <div class="col-sm-12">
@@ -578,7 +582,9 @@
                                         placeholder="write your lettre here"></textarea>
                                 </div>
                                 <div class="col-sm-12">
-                                    <button class="subbtn" type="submit"> SUBMIT NOW</button>
+                                    <button class="pageclip-form__submit" type="submit">
+                                        <span>SUBMIT NOW</span>
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -662,8 +668,7 @@
 
     <!--   start JS -->
 
-
-    <!-- you have to replace this with a file -->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src='assets/css/fontawsome/js/all.js'></script>
     <script src='assets/bootstrap/js/bootstrap.min.js'></script>
