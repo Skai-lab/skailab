@@ -1,6 +1,8 @@
 /**/
 @import "bs4.min.css";
-
+ html * {
+    font-family: 'Lato', sans-serif;
+ }
 * {
     margin: 0px;
     padding: 0px;
@@ -169,7 +171,7 @@ li .el-navbar:active {
 }
 .center-title h3 {
     font-size: 35px;
-    font-weight: 900;
+    font-weight:600;
 }
 
 .discover-title {
@@ -252,12 +254,16 @@ li .el-navbar:active {
     font-size: 14px;
     text-align: center;
 }
-.linkReadMore {
-    font-weight: 900;
+a.link-read-more {
     font-size: 12px;
     text-align: center;
-    cursor: pointer;
-    color: red;
+    cursor: pointer ;  
+    color:  #ED4C5C !important;
+    font-weight: 800;
+}
+
+a.link-read-more:hover{
+    text-decoration: underline;
 }
 
 .heyimg {
@@ -296,7 +302,7 @@ textarea {
 }
 .textemail {
     inline-size: 425px;
-    font-size: 22px;
+    font-size: 1.1em;
 }
 
 .lastone {
@@ -362,6 +368,8 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .w-66{
     width: 66%;
@@ -433,6 +441,12 @@ select option {
     margin-bottom: 12rem;
 }
 
+#goals .text-muted{
+    color: #363636 !important;
+    font-weight: 300;
+
+}
+
 /* team section */
 #team .card{
     border: none;
@@ -441,8 +455,14 @@ select option {
     font-weight: bolder;
 }
 
+
 #team .container .row{
     margin-left: 5%;
+}
+
+/* contact us */
+#contact .h1{
+    font-weight: 600;
 }
 /* footer section */
 
@@ -458,3 +478,10 @@ select option {
      justify-content: space-between;
      max-width: 70%;
 }
+
+
+/* spacing */
+.m-em-4{
+    margin-bottom: 2em;
+}
+
