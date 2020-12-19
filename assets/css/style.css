@@ -421,7 +421,7 @@ select option {
 
 .pageclip-form__submit{
     padding: 13px 34px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: 'Lato',  serif;
     margin: 20px;
     resize: none;
     background: linear-gradient(180deg, #da454b 0%, #e63b6e 100%);
@@ -431,8 +431,8 @@ select option {
 }
 
 .pageclip-form__submit:hover{
-    background:white;
-    color:black;
+    background: linear-gradient(180deg, #df5459 0%, #f15886 100%);
+    
 }
 
 
