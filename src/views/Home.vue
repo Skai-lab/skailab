@@ -1,19 +1,15 @@
 <template>
   <div class="home">
-    <navbar/>
-    
+    <navbar />
+
     <main>
-      <discover/>
-      <projects/>
-      <goals/>
-      <team/>
-      <contactUs/>
-      <foots/>
+      <discover />
+      <projects />
+      <goals />
+      <team />
+      <contactUs />
+      <foots />
     </main>
-
-    
-
-
   </div>
 </template>
 
@@ -29,18 +25,16 @@ import contactUs from "@/components/contactUs.vue";
 
 import foots from "@/components/foots.vue";
 
-
-
 export default {
   name: "Home",
   components: {
-    navbar ,
-    discover ,
+    navbar,
+    discover,
     projects,
     goals,
     team,
     contactUs,
-    foots
-  }
+    foots,
+  },
 };
 </script>

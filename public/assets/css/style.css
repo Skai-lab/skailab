@@ -101,7 +101,7 @@ li .el-navbar:active {
             rgba(233, 59, 36, 0.6),
             rgba(170, 44, 157, 0.167)
         ),
-        url("../img/bigbg.jpg");
+        url("../../data/img/bigbg.jpg");
     /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
     /* height: 120vh;*/
     background-repeat: no-repeat;
