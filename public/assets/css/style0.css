@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing:border-box;
     font-size: 19px;
     font-family: "Open Sans", sans-serif;
 }
@@ -32,12 +33,15 @@
     display: block;
 }
 */
-
+header{
+    width : 100%;
+}
 .navbar-fixed-top{
     position:fixed;
     right:0;
     left:0;
     z-index:1030;
+    background-color: rgba(250, 54, 76, 0.6) !important;
 
     transition: all 550ms linear;
 }
@@ -45,16 +49,24 @@
 
 .navbar-fixed-top.scrolled {
     background-color: rgba(240, 54, 76, 0.9) !important;
-    margin-top: -30px !important;
+    margin-top: -0.5em !important;
     transition: all 550ms linear;
 }
 
-
+/*   humberger style */
 .navbar-toggler{
     background-color: blue;
-
 }
 
+.navbar-toggler-icon{
+    color:red
+}
+
+
+
+
+
+/* end humberger style*/
 
 /*************** FIN OF DROP DOWN **********************/
 
@@ -67,27 +79,27 @@
 }
 
 .navbar-expand-lg  {
-    background: transparent;
 
-    
-    padding: 15px;
-    height: auto;
-    border-color: transparent;
+    padding: auto;
+    height: 6em;
+    background: linear-gradient rgba(240,255,0,1);
+    /*
+    background: transparent;
+*/
+  /*  border-color: transparent;*/
     color: #ffffff;
 }
 
 .navbar-expand-lg .navbar-nav{
-    margin-left: 3rem;
+    margin: auto;
 }
 
 .navbar-expand-lg  .navbar-nav > li > a {
     color: #ffffff;
+    margin: 0.5em 2em 0.5em 2em;
 }
 
-.navbar-expand-lg  .navbar-nav li {
-    margin-top: 30px;
-    padding: 25px;
- }
+
 
 .el-navbar {
     margin: 0 0.3em 0 0.3em;
@@ -138,6 +150,8 @@ li .el-navbar:active {
 
 .bigbrand {
     margin: 50px;
+    width:430px;
+    height:auto;
 }
 
 .intro-brand {

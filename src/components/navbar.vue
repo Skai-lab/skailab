@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+    <div class="hello">
     
     <!-- Start Header -->
     <header id="home">
@@ -8,8 +8,16 @@
                 <!--start of the container -->
                 <div class="navbar-header">
                     <!-- start header -->
-                    <a class="navbar-brand" href="#"><img src="../../public/data/img/skailogo.png" alt="Brand Skailab"
-                            class="skailogo"></a>
+        
+            
+                    <a class="navbar-brand" href="#">
+                        <img src="../../public/data/img/skailogo.png" alt="Brand Skailab" class="skailogo">
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#col0" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
                 </div> <!-- end header -->
                 <!--
                     *! use collapse for responsive web site 
@@ -58,32 +66,18 @@
 
     
     
-  </div>
+    </div>
 </template>
 
 <script>
 export default {
-  name: "navbar",
-  props: {
-    msg: String
-  }
+    name: "navbar",
+
+
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

@@ -47,7 +47,7 @@
         </section>
 
 
-        <!-- Begin section Contact -->
+        <!-- End section Contact -->
     
 
 

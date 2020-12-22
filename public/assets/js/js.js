@@ -160,7 +160,6 @@ $(function () {
 
 
 
-
 /*  end nav bar  start  GO to place  */
 
 $(function() {
