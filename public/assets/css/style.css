@@ -7,6 +7,7 @@
 }
 
 
+
 /************** BEGIN DROP DOWN  ***********************/
 
 
@@ -183,9 +184,9 @@ header{
     font-weight: 1000;
 }
 .discover-text {
-    /*margin-left: 120px;*/
-    /*width: 390px;*/
-    /*text-align: justify;*/
+    margin-left: 120px;
+    width: 390px;
+    text-align: justify;
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -296,7 +297,7 @@ textarea {
     height: 190px;
 }
 .textemail {
-    inline-size: 100%;
+    inline-size: 425px;
     font-size: 1.1em;
 }
 
@@ -499,12 +500,3 @@ select option {
 
 
 
-.navbar-fixed-top{
-
-    background-color: rgba(29, 250, 0, 0.6) !important;
-
-}
-.navbar {
-   width: 100%;
-
-}
