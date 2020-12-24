@@ -15,7 +15,7 @@
 
 <script>
 // @ is an alias to /src
-import navbar from "@/components/navbar0.vue";
+import navbar from "@/components/navbar.vue";
 import discover from "@/components/discover.vue";
 
 import projects from "@/components/projects.vue";

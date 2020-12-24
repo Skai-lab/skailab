@@ -1,59 +1,60 @@
+
+
+
 <template>
     <div class="hello">
     
     <!-- Start Header -->
     <header id="home">
-        <nav class="navbar navbar-expand-lg  navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!--start of the container -->
-                <div class="navbar-header">
-                    <!-- start header -->
-        
-            
-                    <a class="navbar-brand" href="#">
-                        <img src="../../public/data/img/skailogo.png" alt="Brand Skailab" class="skailogo">
-                    </a>
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#col0" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                </div> <!-- end header -->
-                <!--
-                    *! use collapse for responsive web site 
-                    *? you have to use the collapse in the next time when you want to update this page .. for phone 
-                    
-                -->
-                <div class="collapse navbar-collapse" id="col0">
-                    <ul class="navbar-nav">
-                        <li class="el-navbar"><a href="#home">HOME</a></li>
-                        <li class="el-navbar"><a href="#projects">PROJECTS</a></li>
-                        <li class="el-navbar"><a href="#goals">GOALS</a></li>
-                        <li class="el-navbar"><a href="#team">TEAM</a></li>
-                        <li class="el-navbar"><a href="#contact">CONTACT US</a></li>
-                        <li class="dropdownxx el-navbar">
-                            <a>
-                                <select id="lang" name="lang" class="inputbox" size="1">
-                                    <option value="EN" class="clang">En</option>
-                                    <option value="AR" class="clang">Ar</option>
-                                    <option value="FR" class="clang">Fr</option>
-                                    <option value="DU" class="clang">Du</option>
-                                    <option value="SP" class="clang">Sp</option>
-                                </select>
-                            </a>
-                        </li>
-                
-                    </ul>
-                </div>
-            </div><!-- end of the container -->
-        </nav>
-        <!-- End The nav bar -->
 
+        <nav class="navbar navbar-expand-lg navbar-fixed-top ">
+            
+            <a class="navbar-brand" href="#">
+                <img src="../../public/data/img/skailogo.png" alt="Brand Skailab" class="skailogo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#goals">goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="white-space: nowrap; margin-right :-6px">contact us</a>
+                    </li>
+                <li class=" nav-item ">
+                        <a class="nav-link">
+                            <select id="lang" name="lang" class="inputbox" size="1">
+                                <option value="EN" class="clang">En</option>
+                                <option value="AR" class="clang">Ar</option>
+                            </select>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </nav>
+
+        
         <!-- The Background -->
         <section class="background">
             <div class="bigimg">
-                <img class="bigbrand" src="../../public/data/img//Frame_1_brand.svg" alt="Backgound Image" width="430px"
-                    height="auto">
+                
                 <header class="intro-brand">
                     Artificial Intelligence Excellence Laboratory
                 </header>

@@ -1,119 +1,113 @@
-/**/
-
-
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing:border-box;
     font-size: 19px;
     font-family: "Open Sans", sans-serif;
 }
 
 
-/*********************  DROP DOWN  ***********************/
-.fa .fa-caret-down {
-    font-size: 3px;
+/************** BEGIN DROP DOWN  ***********************/
+
+
+/*********** for the caret down ***********/
+    /* ! this is a bad place for this code */
+    /* TODO : move this code to the right place */ 
+    .fa .fa-caret-down {
+        font-size: 3px; 
+    }
+/*********** end the caret down ***********/
+
+
+header{
+    width : 100%;
 }
 
-/*
-.navbar a:hover, .dropdownx:hover .dropbtnx {
-    color: skyblue;
-}
-    .dropdown-contentx {
-    display: none;
-    background-color: #f9f9f9;
-}
-    .dropdown-contentx a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-    .dropdownx:hover .dropdown-contentx {
-    display: block;
-}
-*/
 
 .navbar-fixed-top{
     position:fixed;
     right:0;
     left:0;
     z-index:1030;
+    background-color: rgba(250, 54, 76, 0.6) !important;
 
     transition: all 550ms linear;
 }
 
-
+/** ---------------for changing the navbar color ----------- */
 .navbar-fixed-top.scrolled {
     background-color: rgba(240, 54, 76, 0.9) !important;
-    margin-top: -30px !important;
+    margin-top: -0.5em !important;
     transition: all 550ms linear;
 }
 
-
+/** --------------- BEGIN humberger style ----------- */
 .navbar-toggler{
     background-color: blue;
-
 }
 
-
-/*************** FIN OF DROP DOWN **********************/
-
-/*
-* navbar modfications 
-*/
-.navbar-center {
-    display: flex;
-    justify-content: center;
+.navbar-toggler-icon{
+    color:red
 }
+
+/** --------------- END humberger style ----------- */
+
+/*************** END DROP DOWN **********************/
+
+
+/************* BEGIN navbar modfications ************/
+
 
 .navbar-expand-lg  {
-    background: transparent;
 
+    padding: auto;
+    height: 6em;
     
-    padding: 15px;
-    height: auto;
-    border-color: transparent;
+    /*  ?  what does this suppose to do here in this class 
+        ?  background: linear-gradient rgba(240,255,0,1); 
+    */ 
+
+    /*//  background: transparent;    */
+    /*//  border-color: transparent;  */
+
     color: #ffffff;
 }
 
 .navbar-expand-lg .navbar-nav{
-    margin-left: 3rem;
+    margin: auto;
 }
 
 .navbar-expand-lg  .navbar-nav > li > a {
     color: #ffffff;
+    margin: 0.5em 2em 0.5em 2em;
 }
 
-.navbar-expand-lg  .navbar-nav li {
-    margin-top: 30px;
-    padding: 25px;
- }
 
-.el-navbar {
-    margin: 0 0.3em 0 0.3em;
+.inputbox {
+    width:80px;
+    padding:0px 8px;
     font-size: 20px;
-    z-index: 1;
-}
+    font-weight: 1000;
+    background: transparent;
+    border: none;
+    color: #fff;
 
-li .el-navbar:active {
-    color: red;
-}
+} 
 /*
-* End navbar modification
+.inputbox:hover,
+.inputbox::after,
+.inputbox::before,
+.inputbox:focus {
+    border: none;
+}
 */
+/************** End navbar modification ************/
 
 .background {
     padding-top: 130px;
 
-    /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
-    background: linear-gradient(
-            15.67deg,
-            rgba(233, 59, 36, 0.6),
-            rgba(170, 44, 157, 0.167)
-        ),
-        url("../../data/img/bigbg.jpg");
-    /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
-    /* height: 120vh;*/
+    background: linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)),url("../../data/img/bigbg.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -124,9 +118,7 @@ li .el-navbar:active {
     font-size: 15px;
 }
 
-.content {
-    display: none;
-}
+
 
 .bigimg {
     display: block;
@@ -138,11 +130,15 @@ li .el-navbar:active {
 
 .bigbrand {
     margin: 50px;
+    width:430px;
+    height:auto;
 }
 
 .intro-brand {
     font-size: 27px;
     color: #ffffff;
+    text-align : center;
+    
 }
 
 .discoverBtn {
@@ -187,9 +183,9 @@ li .el-navbar:active {
     font-weight: 1000;
 }
 .discover-text {
-    margin-left: 120px;
-    width: 390px;
-    text-align: justify;
+    /*margin-left: 120px;*/
+    /*width: 390px;*/
+    /*text-align: justify;*/
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -230,7 +226,7 @@ li .el-navbar:active {
     padding: 15px;
 }
 
-.insidecard1,.insidecard2,.insidecard3,.insidecard4,.insidecard5,.insidecard6 {
+.insidecard1,.insidecard2,.insidecard3{
 
 
     position: absolute;
@@ -271,14 +267,9 @@ a.link-read-more:hover{
 }
 
 .heyimg {
-    border-radius: 50%;
-
+    border-radius: 50%; 
     padding: 20px;
-    background-image: linear-gradient(
-        to top,
-        rgb(232, 59, 39),
-        rgb(222, 74, 111)
-    );
+    background-image: linear-gradient(  to top, rgb(232, 59, 39), rgb(222, 74, 111)  );
     width: 180px;
     height: 180px;
 }
@@ -297,7 +288,7 @@ a.link-read-more:hover{
     margin: 20px;
     border: 2px solid;
     border-radius: 10px;
-    width: 600px;
+    width: 100%;
     resize: none;
 }
 
@@ -305,7 +296,7 @@ textarea {
     height: 190px;
 }
 .textemail {
-    inline-size: 425px;
+    inline-size: 100%;
     font-size: 1.1em;
 }
 
@@ -388,24 +379,7 @@ footer {
     margin-top: -5px;
 }
 
-.inputbox {
-    width:80px;
-    padding:0px 8px;
-    font-size: 20px;
-    font-weight: 1000;
-    background: transparent;
-    border: none;
-    color: #fff;
 
-} 
-/*
-.inputbox:hover,
-.inputbox::after,
-.inputbox::before,
-.inputbox:focus {
-    border: none;
-}
-*/
 
 
 select option {
@@ -488,4 +462,49 @@ select option {
 /* spacing */
 .m-em-4{
     margin-bottom: 2em;
+}
+
+
+/* ! for mobile */ 
+
+@media (max-width: 938px) {
+    .bigbrand  {
+        width:380px;
+    }
+    .intro-brand {
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 798px) {
+    .bigbrand  {
+        width:320px;
+    }
+    .intro-brand {
+        font-size: 21px;
+    }
+}
+@media (max-width: 534px) {
+    .bigbrand  {
+        width:250px;
+    }
+    .intro-brand {
+        font-size: 19px;
+    }
+}
+
+
+/* ! END mobile   */ 
+
+
+
+
+.navbar-fixed-top{
+
+    background-color: rgba(29, 250, 0, 0.6) !important;
+
+}
+.navbar {
+   width: 100%;
+
 }
