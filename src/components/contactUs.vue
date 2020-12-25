@@ -17,9 +17,13 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <br>
-                        <h1 class="m-em-4 h1">Leave an E-mail<br></h1>
-                        <div class="textemail"> Just fill out the form and our support team will get back at you within
-                            24 hours.</div>
+                        <h1 class="m-em-4 h1">
+                            Leave an E-mail<br>
+                        </h1>
+                        <div class="textemail">
+                            Just fill out the form and our support team will get back at you within
+                            24 hours.
+                        </div>
                     </div>
 
                     <div class="col-sm-7">

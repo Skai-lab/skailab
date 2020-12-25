@@ -7,41 +7,30 @@
 }
 
 
-
-/************** BEGIN DROP DOWN  ***********************/
-
-
-/*********** for the caret down ***********/
-    /* ! this is a bad place for this code */
-    /* TODO : move this code to the right place */ 
-    .fa .fa-caret-down {
-        font-size: 3px; 
-    }
-/*********** end the caret down ***********/
-
-
 header{
     width : 100%;
 }
 
+/************** BIGIN NAVBAR  ************************/
 
-.navbar-fixed-top{
-    position:fixed;
-    right:0;
-    left:0;
-    z-index:1030;
-    background-color: rgba(250, 54, 76, 0.6) !important;
 
-    transition: all 550ms linear;
+/************** BEGIN DROP DOWN  ***********************/
+
+
+            /*********** for the caret down ***********/
+                /* ! this is a bad place for this code */
+                /* TODO : move this code to the right place */ 
+                /* ? do you know which line can we put this code */  
+                .fa .fa-caret-down {
+                    font-size: 3px; 
+                }
+            /*********** end the caret down ***********/
+
+.skailogo {
+    margin-top: 25px;
+    width: 110px;
+    height: 50px;
 }
-
-/** ---------------for changing the navbar color ----------- */
-.navbar-fixed-top.scrolled {
-    background-color: rgba(240, 54, 76, 0.9) !important;
-    margin-top: -0.5em !important;
-    transition: all 550ms linear;
-}
-
 /** --------------- BEGIN humberger style ----------- */
 .navbar-toggler{
     background-color: blue;
@@ -53,10 +42,27 @@ header{
 
 /** --------------- END humberger style ----------- */
 
+
 /*************** END DROP DOWN **********************/
 
 
 /************* BEGIN navbar modfications ************/
+.navbar-fixed-top{
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+    background-color: rgba(250, 54, 76, 0.6) !important;
+
+    transition: all 550ms linear;
+}
+
+/** ---------------for changing the navbar color after scrolling ----------- */
+.navbar-fixed-top.scrolled {
+    background-color: rgba(240, 54, 76, 0.9) !important;
+    margin-top: -0.5em !important;
+    transition: all 550ms linear;
+}
 
 
 .navbar-expand-lg  {
@@ -103,6 +109,7 @@ header{
 }
 */
 /************** End navbar modification ************/
+/************** begin  introduction  modification ************/
 
 .background {
     padding-top: 130px;
@@ -114,13 +121,6 @@ header{
     height: auto;
 }
 
-.mor {
-    display: none;
-    font-size: 15px;
-}
-
-
-
 .bigimg {
     display: block;
     margin-left: auto;
@@ -131,7 +131,7 @@ header{
 
 .bigbrand {
     margin: 50px;
-    width:430px;
+    width:50%;
     height:auto;
 }
 
@@ -141,6 +141,8 @@ header{
     text-align : center;
     
 }
+
+
 
 .discoverBtn {
     border: 0.5px solid;
@@ -156,11 +158,8 @@ header{
     box-shadow: 0px 2px 15px 0px rgb(228, 228, 228);
 }
 
-.skailogo {
-    margin-top: 25px;
-    width: 110px;
-    height: 50px;
-}
+/************** End introduction modification ************/
+
 
 .center-title {
     margin-bottom: 2.5rem;
@@ -227,8 +226,7 @@ header{
     padding: 15px;
 }
 
-.insidecard1,.insidecard2,.insidecard3{
-
+.inside-card-1,.inside-card-2,.inside-card-3{
 
     position: absolute;
     bottom: -70px;
@@ -439,6 +437,7 @@ select option {
     margin-left: 5%;
 }
 
+
 /* contact us */
 #contact .h1{
     font-weight: 600;
@@ -470,7 +469,7 @@ select option {
 
 @media (max-width: 938px) {
     .bigbrand  {
-        width:380px;
+        width:45%;
     }
     .intro-brand {
         font-size: 24px;
@@ -479,24 +478,29 @@ select option {
 }
 @media (max-width: 798px) {
     .bigbrand  {
-        width:320px;
+        width:40%;
     }
     .intro-brand {
         font-size: 21px;
     }
 }
 @media (max-width: 534px) {
-    .bigbrand  {
-        width:250px;
-    }
+    /*.bigbrand  {
+        width:30%;
+    }*/
     .intro-brand {
         font-size: 19px;
     }
 }
 
 
-/* ! END mobile   */ 
 
+
+
+
+
+
+/* ! END mobile   */ 
 
 
 

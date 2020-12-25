@@ -31,14 +31,14 @@ if (dots1.style.display === "none") {
     dots1.style.display = "inline";
     btnText4.innerHTML = "Read more"; 
     moreText4.style.display = "none";
-    $('.inside-card4').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+    $('.inside-card-1').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
 
 
 } else {
     dots1.style.display = "none";
     btnText4.innerHTML = "Read less"; 
     moreText4.style.display = "inline";
-    $('.inside-card4').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+    $('.inside-card-1').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
 
 }
 }
@@ -46,20 +46,20 @@ if (dots1.style.display === "none") {
 function readMore2() {
 var dots2 = document.getElementById("dots2");
 var moreText5 = document.getElementById("more2");
-var btnText5 = document.getElementById("myBtn5");
+var btnText5 = document.getElementById("btn2");
 
 if (dots2.style.display === "none") {
     dots2.style.display = "inline";
     btnText5.innerHTML = "Read more"; 
     moreText5.style.display = "none";
-    $('.inside-card5').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+    $('.inside-card-2').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
 
 
 } else {
     dots2.style.display = "none";
     btnText5.innerHTML = "Read less"; 
     moreText5.style.display = "inline";
-    $('.inside-card5').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+    $('.inside-card-2').css({"background-color":"rgb(245, 245, 245)","height":"390px","bottom":"-20px","transition":"1s"});
 
 }
 }
@@ -67,20 +67,20 @@ if (dots2.style.display === "none") {
 function readMore3() {
 var dots3 = document.getElementById("dots3");
 var moreText6 = document.getElementById("more3");
-var btnText6 = document.getElementById("myBtn6");
+var btnText6 = document.getElementById("btn3");
 
 if (dots3.style.display === "none") {
     dots3.style.display = "inline";
     btnText6.innerHTML = "Read more"; 
     moreText6.style.display = "none";
-    $('.inside-card6').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
+    $('.inside-card-3').css({"background-color":"white","height":"290px","bottom":"-70px","transition":"1s"});
 
 
 } else {
     dots3.style.display = "none";
     btnText6.innerHTML = "Read less"; 
     moreText6.style.display = "inline";
-    $('.inside-card6').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
+    $('.inside-card-3').css({"background-color":"rgb(235, 235, 235)","height":"390px","bottom":"-20px","transition":"1s"});
 
 }
 }

@@ -13,13 +13,13 @@
                 <img src="../../public/data/img/skailogo.png" alt="Brand Skailab" class="skailogo">
             </a>
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#col" aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="col">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
@@ -36,7 +36,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" style="white-space: nowrap; margin-right :-6px">contact us</a>
                     </li>
-                <li class=" nav-item ">
+                    <li class=" nav-item ">
                         <a class="nav-link">
                             <select id="lang" name="lang" class="inputbox" size="1">
                                 <option value="EN" class="clang">En</option>
@@ -55,6 +55,8 @@
         <section class="background">
             <div class="bigimg">
                 
+                <img class="bigbrand" src="../../public/data/img//Frame_1_brand.svg" alt="Backgound Image" height="auto">
+
                 <header class="intro-brand">
                     Artificial Intelligence Excellence Laboratory
                 </header>
@@ -72,9 +74,7 @@
 
 <script>
 export default {
-    name: "navbar",
-
-
+    name: "navbar"
 };
 </script>
 
