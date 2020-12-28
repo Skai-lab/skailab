@@ -91,6 +91,17 @@ If you want to send us a join a request do the following :
 
 - add more details about you  in the pull request description example  : more details about you , why you want to join us , phone number, email , links 
 
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
 ## License
 
 Copyright (c) 2020 skailab Licensed under the MIT license.

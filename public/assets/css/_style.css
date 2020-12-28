@@ -1,0 +1,491 @@
+/**/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*********************  DROP DOWN  ***********************/
+.fa .fa-caret-down {
+    font-size: 3px;
+}
+
+/*
+.navbar a:hover, .dropdownx:hover .dropbtnx {
+    color: skyblue;
+}
+    .dropdown-contentx {
+    display: none;
+    background-color: #f9f9f9;
+}
+    .dropdown-contentx a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+    .dropdownx:hover .dropdown-contentx {
+    display: block;
+}
+*/
+
+.navbar-fixed-top{
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+
+    transition: all 550ms linear;
+}
+
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(240, 54, 76, 0.9) !important;
+    margin-top: -30px !important;
+    transition: all 550ms linear;
+}
+
+
+.navbar-toggler{
+    background-color: blue;
+
+}
+
+
+/*************** FIN OF DROP DOWN **********************/
+
+/*
+* navbar modfications 
+*/
+.navbar-center {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-expand-lg  {
+    background: transparent;
+
+    
+    padding: 15px;
+    height: auto;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav{
+    margin-left: 3rem;
+}
+
+.navbar-expand-lg  .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-expand-lg  .navbar-nav li {
+    margin-top: 30px;
+    padding: 25px;
+ }
+
+.el-navbar {
+    margin: 0 0.3em 0 0.3em;
+    font-size: 20px;
+    z-index: 1;
+}
+
+li .el-navbar:active {
+    color: red;
+}
+/*
+* End navbar modification
+*/
+
+.background {
+    padding-top: 130px;
+
+    /*  background: linear-gradient(254.67deg, #E93B24 10.32%, rgba(170, 44, 157, 0.67) 97.12%), url('../img1/first.svg');*/
+    background: linear-gradient(
+            15.67deg,
+            rgba(233, 59, 36, 0.6),
+            rgba(170, 44, 157, 0.167)
+        ),
+        url("../../data/img/bigbg.jpg");
+    /* background: linear-gradient( rgb(240,54,76), rgba(0,0,0,0.5)), url('../img/img1.jpg'); */
+    /* height: 120vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.mor {
+    display: none;
+    font-size: 15px;
+}
+
+.content {
+    display: none;
+}
+
+.bigimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.bigbrand {
+    margin: 50px;
+}
+
+.intro-brand {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.discoverBtn {
+    border: 0.5px solid;
+    border-radius: 43px;
+    color: rgba(234, 83, 113, 1);
+    background-color: #ffffff;
+    height: 68px;
+    width: 250px;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5em;
+    box-shadow: 0px 2px 15px 0px rgb(228, 228, 228);
+}
+
+.skailogo {
+    margin-top: 25px;
+    width: 110px;
+    height: 50px;
+}
+
+.center-title {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.home-section{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+.center-title h3 {
+    font-size: 35px;
+    font-weight:600;
+}
+
+.discover-title {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    padding-bottom: 70px;
+    margin-right: 50px;
+    font-weight: 1000;
+}
+.discover-text {
+    margin-left: 120px;
+    width: 390px;
+    text-align: justify;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.algeria {
+    padding: 60px 0px 0px 110px;
+}
+
+.projects-list {
+    padding: 1.4em;
+    list-style: none;
+}
+.projects-list  li a, .projects-list  li:hover  a{
+    color: #000;
+}
+.projects-list  li:hover{
+    text-decoration: underline;
+}
+
+.projects-list  .fa-link{
+    font-size: 0.8em;
+    margin-left: 0.4em;
+}
+
+.redpoint::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+    font-size: 2.1em;
+}
+
+.cardimg {
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+}
+
+.insidecard1,.insidecard2,.insidecard3,.insidecard4,.insidecard5,.insidecard6 {
+
+
+    position: absolute;
+    bottom: -70px;
+    right: 13px;
+    background-color: white;
+
+    color: black;
+    padding: 20px 30px;
+
+    
+    width: 310px;
+    height: 290px;
+    box-shadow: 10px 10px 10px 0px rgb(210, 210, 210);
+    border-radius: 8px;
+    text-align: center;
+}
+.-titleInCard {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.textInCard {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+a.link-read-more {
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer ;  
+    color:  #ED4C5C !important;
+    font-weight: 800;
+}
+
+a.link-read-more:hover{
+    text-decoration: underline;
+}
+
+.heyimg {
+    border-radius: 50%;
+
+    padding: 20px;
+    background-image: linear-gradient(
+        to top,
+        rgb(232, 59, 39),
+        rgb(222, 74, 111)
+    );
+    width: 180px;
+    height: 180px;
+}
+
+.imgs {
+    padding: 50px;
+}
+
+.sparator {
+    height: 50px;
+}
+
+.inp {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 17px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 600px;
+    resize: none;
+}
+
+textarea {
+    height: 190px;
+}
+.textemail {
+    inline-size: 425px;
+    font-size: 1.1em;
+}
+
+.lastone {
+    background: linear-gradient(to left, rgb(197, 40, 69), rgb(118, 45, 59));
+    padding: 60px 50px 50px 0px;
+    color: #ffffff;
+}
+
+.adclas {
+    font-weight: 700;
+    font-size: 22px;
+}
+.coclas {
+    padding-top: 55px;
+    line-height: 35px;
+    width: 250px;
+    font-size: 21px;
+}
+.copclas {
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.toclas {
+    font-size: 20px;
+    font-weight: 600;
+}
+.emclas {
+    font-size: 17px;
+    padding-top: 50px;
+}
+.fontclas {
+    padding-top: 50px;
+}
+
+.fan-icon {
+    font-size: 42px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+.f_logo {
+    padding-top: 25px;
+    width: 180px;
+    height: auto;
+}
+
+.padd {
+    padding-top: 70px;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-section header p  {
+    padding: 1em;
+}
+
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.w-66{
+    width: 66%;
+    max-width: 66%;
+}
+
+footer {
+    height: 100%;
+}
+
+.dropdownxx {
+    margin-top: -5px;
+}
+
+.inputbox {
+    width:80px;
+    padding:0px 8px;
+    font-size: 20px;
+    font-weight: 1000;
+    background: transparent;
+    border: none;
+    color: #fff;
+
+} 
+/*
+.inputbox:hover,
+.inputbox::after,
+.inputbox::before,
+.inputbox:focus {
+    border: none;
+}
+*/
+
+
+select option {
+    color: #000 !important;
+    padding: 30px;
+}
+
+
+
+.pageclip-form__submit{
+    padding: 13px 34px;
+
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 20px;
+    resize: none;
+
+    background: linear-gradient(180deg, #da454b 0%, #e63b6e 100%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+
+/* fonts section */
+#projects{
+    background: #FAFAFA;
+}
+
+
+
+.first-row{
+    margin-bottom: 200px;
+}
+
+/* goals section */
+#goals{
+    margin-bottom: 12rem;
+}
+
+#goals .text-muted{
+    color: #363636 !important;
+    font-weight: 300;
+
+}
+
+/* team section */
+#team .card{
+    border: none;
+}
+#team h5{
+    font-weight: bolder;
+}
+
+
+#team .container .row{
+    margin-left: 5%;
+}
+
+/* contact us */
+#contact .h1{
+    font-weight: 600;
+}
+/* footer section */
+
+.font-social a {
+    color: white;
+    font-size: 2em;
+}
+
+.font-social{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 70%;
+    
+}
+
+
+/* spacing */
+.m-em-4{
+    margin-bottom: 2em;
+}

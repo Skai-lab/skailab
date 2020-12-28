@@ -1,0 +1,83 @@
+
+.video{
+   width: 100%;
+   border: 1px solid black;
+   border-bottom: 2px solid black ;
+}
+
+.covideo{
+   width: 100%;
+   max-width: 800px;
+   position: relative;
+}
+
+.controlss{
+   display: flex;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+.videob .play-btn{
+   background: rgb(252,64,101);
+   padding: 1em;
+   width: 70px;
+   height: 70px;
+   
+   text-align: center;
+   border-radius: 50%;
+   
+   margin-left:-35px;
+   background-repeat:no-repeat;
+   position:absolute;
+   left:-5%;
+   right:100%;
+   top:0%;
+   bottom:0px;
+   margin:auto;
+   background-size:contain;
+   background-position: center; 
+}
+
+.videob .play-btn i{
+   line-height: 70px;
+   margin-left: 5px; 
+}
+
+.videob .play-btn:before,.videob .play-btn:after{
+   content:"";
+   border: 2px solid;
+   border-radius: 50%;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   box-shadow:1px 1px 10px 0px rgb(252,64,101);
+}
+
+.fan-play{
+   color : #fff ;
+   font-size:15px;
+}
+
+.play-btn{
+   width:120px;
+   height:60px;
+   margin-left:35px;
+   display:block;
+   background-color:gray;
+   color:white;
+   color:rgb(252,64,101);
+   border: 0.5px solid;
+  /* outline:none;  */ 
+   cursor: pointer;
+}
+
+.wrapper{
+   display:table;
+   width:auto;
+   position:relative;
+   width:100%;
+}
+ 
