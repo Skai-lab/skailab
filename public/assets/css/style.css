@@ -7,9 +7,6 @@
 }
 
 
-header{
-    width : 100%;
-}
 
 /************** BIGIN NAVBAR  ************************/
 
@@ -33,11 +30,20 @@ header{
 }
 /** --------------- BEGIN humberger style ----------- */
 .navbar-toggler{
-    background-color: blue;
+    background : #efefef;
+    margin-right : 20px ; 
 }
 
-.navbar-toggler-icon{
-    color:red
+.navbar-toggler span
+{
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: red;
+    border-radius: 3px;
 }
 
 /** --------------- END humberger style ----------- */
@@ -161,6 +167,8 @@ header{
 /************** End introduction modification ************/
 
 
+/** *********** start discover modifications ***********/
+
 .center-title {
     margin-bottom: 2.5rem;
     text-align: center;
@@ -184,11 +192,115 @@ header{
 }
 .discover-text {
     margin-left: 120px;
-    width: 390px;
+    max-width: 390px;
     text-align: justify;
     color: #000;
     font-size: 16px;
     font-weight: 500;
+}
+
+@media (max-width: 938px) {
+    
+    .discover-text {
+        margin-left: 20px;
+        max-width: 390px;
+        text-align: justify;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+
+/**---------------start video modifications --------------*/
+
+
+.video{
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: 2px solid black ;
+}
+
+
+.videob .play-btn{
+    background: rgb(252,64,101);
+    padding: 1em;
+    width: 70px;
+    height: 70px;
+    
+    text-align: center;
+    border-radius: 50%;
+    
+    margin-left:-35px;
+    background-repeat:no-repeat;
+    position:absolute;
+    left:-5%;
+    right:100%;
+    top:0%;
+    bottom:0px;
+    margin:auto;
+    background-size:contain;
+    background-position: center; 
+}
+
+.videob .play-btn i{
+    line-height: 70px;
+    margin-left: 5px; 
+}
+
+.videob .play-btn:before,.videob .play-btn:after{
+    content:"";
+    border: 2px solid;
+    border-radius: 50%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow:1px 1px 10px 0px rgb(252,64,101);
+}
+
+.fan-play{
+    color : #fff ;
+    font-size:15px;
+}
+
+.play-btn{
+    width:120px;
+    height:60px;
+    margin-left:35px;
+    display:block;
+    background-color:gray;
+    color:white;
+    color:rgb(252,64,101);
+    border: 0.5px solid;
+    /* outline:none;  */ 
+    cursor: pointer;
+}
+
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+}
+
+
+/**---------------- End video modifications ---------------*/
+
+/*************** END disover modifications  *******************/
+
+
+/*************** start projects modifications  ****************/ 
+
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-66{
+    width: 66%;
+    max-width: 66%;
 }
 
 .algeria {
@@ -196,7 +308,7 @@ header{
 }
 
 .projects-list {
-    padding: 1.4em;
+    padding: 1.4em ;
     list-style: none;
 }
 .projects-list  li a, .projects-list  li:hover  a{
@@ -218,8 +330,12 @@ header{
     width: 1em;
     margin-left: -2em;
     font-size: 2.1em;
+
 }
 
+/************* ENd projects modifications *************/ 
+
+/************* start Goals odifications ***************/
 .cardimg {
     width: 400px;
     height: 350px;
@@ -236,7 +352,6 @@ header{
     color: black;
     padding: 20px 30px;
 
-    
     width: 310px;
     height: 290px;
     box-shadow: 10px 10px 10px 0px rgb(210, 210, 210);
@@ -295,8 +410,20 @@ textarea {
     height: 190px;
 }
 .textemail {
+    max-width:390px;
     inline-size: 425px;
     font-size: 1.1em;
+}
+
+
+@media (max-width: 938px) {
+  
+.textemail {
+    max-width:390px;
+    inline-size: 425px;
+    font-size: 1.1em;
+}
+
 }
 
 .lastone {
@@ -356,18 +483,6 @@ textarea {
 
 .home-section header p  {
     padding: 1em;
-}
-
-.mlr-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.w-66{
-    width: 66%;
-    max-width: 66%;
 }
 
 footer {
@@ -501,6 +616,5 @@ select option {
 
 
 /* ! END mobile   */ 
-
 
 

@@ -34,37 +34,43 @@
                     <section class="col-sm-7">
                         <ul class="projects-list">
 
-                            <li class="redpoint"><a
-                                    href="https://devmesh.intel.com/projects/neonatal-jaundice-detection-in-algeria-using-ai"
-                                    target="__blank">Neonatal jaundice Detection in Algeria Using AI <i
-                                        class="fas fa-link"></i> </a></li>
+                            <li class="redpoint">
+                                <a href="https://devmesh.intel.com/projects/neonatal-jaundice-detection-in-algeria-using-ai" target="__blank">Neonatal jaundice Detection in Algeria Using AI 
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </li>
 
-                            <li class="redpoint"><a
-                                    href="https://devmesh.intel.com/projects/a-hybrid-solution-for-pattern-recognition-face-and-speech"
-                                    target="__blank"> A Hybrid Solution For Pattern Recognition: Face and Speech <i
-                                        class="fas fa-link"></i></a></li>
+                            <li class="redpoint">
+                                <a href="https://devmesh.intel.com/projects/a-hybrid-solution-for-pattern-recognition-face-and-speech"
+                                    target="__blank"> A Hybrid Solution For Pattern Recognition: Face and Speech 
+                                    <i class="fas fa-link"></i>
+                                </a>
+                            </li>
 
-                            <li class="redpoint"><a href="https://devmesh.intel.com/projects/smoke-detection-in-algeria"
+                            <li class="redpoint">
+                                <a href="https://devmesh.intel.com/projects/smoke-detection-in-algeria"
                                     target="__blank">Smoke Detection in Algeria Monitorinf and air Pollutin Reduction <i
-                                        class="fas fa-link"></i></a>
-
+                                        class="fas fa-link"></i>
+                                        </a>
                             </li>
 
-                            <li class="redpoint"><a
-                                    href="https://devmesh.intel.com/projects/deep-learning-for-education-equity"
-                                    target="__blank"> Deep learning fr Equity Education <i class="fas fa-link"></i></a>
+                            <li class="redpoint">
+                                <a href="https://devmesh.intel.com/projects/deep-learning-for-education-equity"
+                                target="__blank"> Deep learning fr Equity Education 
+                                    <i class="fas fa-link"></i>
+                                </a>
                             </li>
 
-                            <li class="redpoint"> <a
-                                    href="https://devmesh.intel.com/projects/lung-disease-ai-classifier"
-                                    target="__blank">Lung disease AI Classifier <i class="fas fa-link"></i></a>
+                            <li class="redpoint"> 
+                                <a href="https://devmesh.intel.com/projects/lung-disease-ai-classifier"
+                                    target="__blank">Lung disease AI Classifier 
+                                    <i class="fas fa-link"></i>
+                                </a>
                             </li>
 
                         </ul>
-
                     </section>
                 </div>
-
             </div>
             <!--end div 4 -->
         </section>
