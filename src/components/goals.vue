@@ -1,5 +1,6 @@
 <template>
     <div class="mygoals">
+        
         <!-- Begin section Goals -->
 
         <section class="home-section" id="goals">
@@ -7,8 +8,8 @@
             <header class="center-title">
                 <h3>GOALS</h3>
             </header>
-            <div class="contianer " style="width: 100% ; ">
-                <div class="row" style="">
+            <div class="contianer">
+                <div class="row">
                     
                     <div class="col-md-4 col-sm-6 col-xs-12 col">
                         <div class="card" style="width: 17rem; margin : auto ;">
@@ -51,8 +52,9 @@
                 
                 </div>
             </div>
-
-            <!-- End section Goals -->
         </section>
+        <!-- End section Goals -->
+
+
     </div>
 </template>

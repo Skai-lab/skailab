@@ -78,7 +78,7 @@
     
     /*  ?  what does this suppose to do here in this class 
         ?  background: linear-gradient rgba(240,255,0,1); 
-    */ 
+    ? */ 
 
     /*//  background: transparent;    */
     /*//  border-color: transparent;  */
@@ -183,34 +183,57 @@
 }
 
 .discover-title {
-    text-align: center;
-    display: block;
     font-size: 30px;
-    padding-bottom: 70px;
-    margin-right: 50px;
-    font-weight: 1000;
-}
-.discover-text {
-    margin-left: 120px;
-    max-width: 390px;
-    text-align: justify;
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
+    margin-bottom : 70px;
+    font-weight: 900;
 }
 
-@media (max-width: 938px) {
+
+.discover-text {
+    max-width: 350px;
+    min-width: 350px;
+
+    /*text-align: justify;*/
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    color:#fff;
+    background:blue;
+}
+
+@media (max-width: 768px) {
+    
+    /*.discover-title {
+        margin-left : 50px ; 
+
+    }
+    .discover-text {
+        margin-right: 500px;
+        margin-bottom: 3em;
+
+        text-align: center;
+    }*/
+}
+
+
+@media (max-width: 600px) {
+    .discover-title {
+        text-align: center;
+    
+    }
     
     .discover-text {
-        margin-left: 20px;
-        max-width: 390px;
-        text-align: justify;
-        color: #000;
-        font-size: 16px;
-        font-weight: 500;
+        text-align : center;
+        background : red ;
+        margin-bottom: 3em;
     }
-
 }
+
+
+
+/*
+text-align: center;
+*/
 
 
 /**---------------start video modifications --------------*/
@@ -303,8 +326,18 @@
     max-width: 66%;
 }
 
+@media (max-width: 100px) {
+    .w-66{
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
 .algeria {
-    padding: 60px 0px 0px 110px;
+    display: inline-block; 
+    padding : 0;
+    background:red;
+
 }
 
 .projects-list {
@@ -337,9 +370,7 @@
 
 /************* start Goals odifications ***************/
 .cardimg {
-    width: 400px;
-    height: 350px;
-    padding: 15px;
+    width: 200px;
 }
 
 .inside-card-1,.inside-card-2,.inside-card-3{
@@ -358,7 +389,7 @@
     border-radius: 8px;
     text-align: center;
 }
-.-titleInCard {
+.titleInCard {
     font-weight: 700;
     font-size: 17px;
     text-align: center;
@@ -417,13 +448,11 @@ textarea {
 
 
 @media (max-width: 938px) {
-  
-.textemail {
-    max-width:390px;
-    inline-size: 425px;
-    font-size: 1.1em;
-}
-
+    .textemail{
+        max-width:390px;
+        inline-size: 425px;
+        font-size: 1.1em;
+    }
 }
 
 .lastone {
@@ -618,3 +647,10 @@ select option {
 /* ! END mobile   */ 
 
 
+
+
+
+
+.col{
+    margin-top :20px;
+}
