@@ -24,14 +24,12 @@
             <!--end div 3 -->
 
             <!-- start div 4 -->
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-sm-5 algeria">
+            <section>
+                <div class="grid-container">
+                    <div class="algeria">
                         <img src="../../public/data/img//algeria.svg" alt="Algeria Map Logo">
                     </div>
-                    <section class="col-sm-7">
+                    <section class="l-items">
                         <ul class="projects-list">
 
                             <li class="redpoint">
@@ -71,7 +69,7 @@
                         </ul>
                     </section>
                 </div>
-            </div>
+            </section>
             <!--end div 4 -->
         </section>
 

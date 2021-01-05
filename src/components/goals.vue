@@ -8,50 +8,45 @@
             <header class="center-title">
                 <h3>goals</h3>
             </header>
-            <div class="contianer">
-                <div class="row">
+
+            <div class="l-container">
+
+                <div class="grid-cards">
                     
-                    <div class="col-md-4 col-sm-6 col-xs-12 col">
-                        <div class="card" style="width: 17rem; margin : auto ;">
-                            <img class="card-img-top" src="../../public/data/img/card1.jpg" alt="Card image " />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
-                                </p>
-                            </div>
+                    <div class="l-card">
+                        <img class="l-card-img" src="../../public/data/img/card1.jpg" alt="Card image " />
+                        <div class="l-card-body">
+                            <h5 class="l-card-title">learn</h5>
+                            <p class="l-card-text">
+                                Get smarter using online tutorials, webinars, student kits and support forums.
+                            </p>
                         </div>
                     </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 col">
-                        <div class="card" style="width: 17rem; margin : auto ;">
-                            <img class="card-img-top" src="../../public/data/img/card2.png" alt="Card image " />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
-                                </p>
-                            </div>
+                    
+                    <div class="l-card">
+                        <img class="l-card-img" src="../../public/data/img/card1.jpg" alt="Card image " />
+                        <div class="l-card-body">
+                            <h5 class="l-card-title">develop</h5>
+                            <p class="l-card-text">
+                                Get access to online resources: Coding using Jupyter, Collab for programming skills
+                            </p>
                         </div>
                     </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 col">
-                        <div class="card" style="width: 17rem; margin : auto ;">
-                            <img class="card-img-top" src="../../public/data/img/card3.jpg" alt="Card image " />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
-                                </p>
-                            </div>
+                
+                    <div class="l-card">
+                        <img class="l-card-img" src="../../public/data/img/card1.jpg" alt="Card image " />
+                        <div class="l-card-body">
+                            <h5 class="l-card-title">creat</h5>
+                            <p class="l-card-text">
+                                Create and educate others using available course materials, hands-on labs, and more
+                            </p>
                         </div>
-                    </div>  
+                    </div>
+                    
                 
                 </div>
             </div>
+            
         </section>
         <!-- End section Goals -->
 

@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <button class="pageclip-form__submit" type="submit">
-                                        <span>SUBMIT NOW</span>
+                                        <span>submit now</span>
                                     </button>
                                 </div>
                             </div>
