@@ -1,11 +1,11 @@
 <template>
     <div class="mydiscover">
         <!-- begin section Discover -->
-        <section class="home-section" id="discover">
+        <section class="the-section" id="discover">
             <!--  start other div s -->
             <!-- start div 1-->
             <header class="center-title">
-                <h3>DISCOVER</h3>
+                <h3>discover</h3>
             </header>
             <!--end div 1 -->
             <!-- start div 2 -->

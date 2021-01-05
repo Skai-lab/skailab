@@ -3,10 +3,10 @@
         
         <!-- Begin section Goals -->
 
-        <section class="home-section" id="goals">
+        <section class="the-section" id="goals">
             <!-- start div 5-->
             <header class="center-title">
-                <h3>GOALS</h3>
+                <h3>goals</h3>
             </header>
             <div class="contianer">
                 <div class="row">

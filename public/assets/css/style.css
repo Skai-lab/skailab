@@ -14,15 +14,6 @@
 /************** BEGIN DROP DOWN  ***********************/
 
 
-            /*********** for the caret down ***********/
-                /* ! this is a bad place for this code */
-                /* TODO : move this code to the right place */ 
-                /* ? do you know which line can we put this code */  
-                .fa .fa-caret-down {
-                    font-size: 3px; 
-                }
-            /*********** end the caret down ***********/
-
 .skailogo {
     margin-top: 25px;
     width: 110px;
@@ -173,13 +164,14 @@
     margin-bottom: 2.5rem;
     text-align: center;
 }
-.home-section{
+.the-section{
     margin-top: 4rem;
     margin-bottom: 8rem;
 }
 .center-title h3 {
     font-size: 35px;
     font-weight:600;
+    text-transform: uppercase;
 }
 
 .discover-title {
@@ -197,8 +189,7 @@
     color: #000;
     font-size: 19px;
     font-weight: 500;
-    color:#fff;
-    background:blue;
+    
 }
 
 @media (max-width: 768px) {
@@ -510,7 +501,7 @@ textarea {
     margin-right: auto;
 }
 
-.home-section header p  {
+.the-section header p  {
     padding: 1em;
 }
 

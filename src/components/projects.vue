@@ -2,12 +2,12 @@
     <div class="myprojects">
         <!-- Begin section projetcs -->
 
-        <section class="home-section" id="projects">
+        <section class="the-section" id="projects">
             <!-- start div 3-->
             <header class="center-title pt-5">
 
                 <h3>
-                    PROJECTS
+                    projects
                 </h3>
 
                 <div class="w-66 mlr-auto">

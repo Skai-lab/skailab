@@ -2,11 +2,11 @@
     <div class="myteam">
                 <!-- Begin section Team -->
 
-        <section class="home-section" id="team">
+        <section class="the-section" id="team">
             <!-- start team header -->
             <header class="center-title">
                 <h3>
-                    TEAM
+                    team
 
                 </h3>
 
