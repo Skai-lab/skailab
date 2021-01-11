@@ -14,7 +14,13 @@
             </a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#col" aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!--
+                    <span class="navbar-toggler-icon"></span>
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
             </button>
             
             
@@ -52,12 +58,12 @@
 
         
         <!-- The Background -->
-        <section class="background">
-            <div class="bigimg">
+        <section class="home-sec">
+            <div class="home-sec-content">
                 
                 <img class="bigbrand" src="../../public/data/img//Frame_1_brand.svg" alt="Backgound Image" height="auto">
 
-                <header class="intro-brand">
+                <header class="intro-text">
                     Artificial Intelligence Excellence Laboratory
                 </header>
                 <button type="button" class="discoverBtn"> DISCOVER NOW </button>

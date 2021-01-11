@@ -4,27 +4,15 @@
     box-sizing:border-box;
     font-size: 19px;
     font-family: "Open Sans", sans-serif;
+
 }
 
-
-header{
-    width : 100%;
-}
 
 /************** BIGIN NAVBAR  ************************/
 
 
 /************** BEGIN DROP DOWN  ***********************/
 
-
-            /*********** for the caret down ***********/
-                /* ! this is a bad place for this code */
-                /* TODO : move this code to the right place */ 
-                /* ? do you know which line can we put this code */  
-                .fa .fa-caret-down {
-                    font-size: 3px; 
-                }
-            /*********** end the caret down ***********/
 
 .skailogo {
     margin-top: 25px;
@@ -33,11 +21,20 @@ header{
 }
 /** --------------- BEGIN humberger style ----------- */
 .navbar-toggler{
-    background-color: blue;
+    background : #efefef;
+    margin-right : 20px ; 
 }
 
-.navbar-toggler-icon{
-    color:red
+.navbar-toggler span
+{
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: red;
+    border-radius: 3px;
 }
 
 /** --------------- END humberger style ----------- */
@@ -72,7 +69,7 @@ header{
     
     /*  ?  what does this suppose to do here in this class 
         ?  background: linear-gradient rgba(240,255,0,1); 
-    */ 
+    ? */ 
 
     /*//  background: transparent;    */
     /*//  border-color: transparent;  */
@@ -84,7 +81,7 @@ header{
     margin: auto;
 }
 
-.navbar-expand-lg  .navbar-nav > li > a {
+.navbar-expand-lg  .navbar-nav li  a {
     color: #ffffff;
     margin: 0.5em 2em 0.5em 2em;
 }
@@ -111,17 +108,15 @@ header{
 /************** End navbar modification ************/
 /************** begin  introduction  modification ************/
 
-.background {
+.home-sec {
     padding-top: 130px;
-
     background: linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)),url("../../data/img/bigbg.jpg");
-
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
 }
 
-.bigimg {
+.home-sec-content {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -130,27 +125,25 @@ header{
 }
 
 .bigbrand {
-    margin: 50px;
+    margin: 10%;
     width:50%;
     height:auto;
 }
 
-.intro-brand {
+.intro-text {
     font-size: 27px;
     color: #ffffff;
-    text-align : center;
-    
 }
-
-
 
 .discoverBtn {
     border: 0.5px solid;
     border-radius: 43px;
-    color: rgba(234, 83, 113, 1);
+    color: rgb(234, 83, 113);
     background-color: #ffffff;
-    height: 68px;
+    
     width: 250px;
+    height: 68px;
+    
     font-size: 27px;
     font-weight: 600;
     margin-top: 40px;
@@ -161,42 +154,138 @@ header{
 /************** End introduction modification ************/
 
 
+/** *********** start discover modifications ***********/
+
+.the-section{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
 .center-title {
     margin-bottom: 2.5rem;
     text-align: center;
 }
-.home-section{
-    margin-top: 4rem;
-    margin-bottom: 8rem;
-}
 .center-title h3 {
     font-size: 35px;
     font-weight:600;
+    text-transform: uppercase;
 }
 
 .discover-title {
-    text-align: center;
-    display: block;
     font-size: 30px;
-    padding-bottom: 70px;
-    margin-right: 50px;
-    font-weight: 1000;
+    margin-bottom : 40px;
+    font-weight: bold;
 }
+
+
 .discover-text {
-    margin-left: 120px;
-    width: 390px;
-    text-align: justify;
+    width: 400px;
     color: #000;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 500;
 }
 
-.algeria {
-    padding: 60px 0px 0px 110px;
+
+/**---------------start video modifications --------------*/
+
+
+.the-video{
+    width: 100%;
+    /* 
+        border: 1px solid black;
+        border-bottom: 2px solid black ;
+    */
 }
 
+
+
+/*  
+.videob .play-btn{
+    background: rgb(252,64,101);
+    padding: 1em;
+    width: 70px;
+    height: 70px;
+    
+    text-align: center;
+    border-radius: 50%;
+    
+    margin-left:-35px;
+    background-repeat:no-repeat;
+    position:absolute;
+    left:-5%;
+    right:100%;
+    top:0%;
+    bottom:0px;
+    margin:auto;
+    background-size:contain;
+    background-position: center; 
+}
+
+.videob .play-btn i{
+    line-height: 70px;
+    margin-left: 5px; 
+}
+
+.videob .play-btn:before,.videob .play-btn:after{
+    content:"";
+    border: 2px solid;
+    border-radius: 50%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow:1px 1px 10px 0px rgb(252,64,101);
+}
+
+.fan-play{
+    color : #fff ;
+    font-size:15px;
+}
+
+.play-btn{
+    width:120px;
+    height:60px;
+    margin-left:35px;
+    display:block;
+    background-color:gray;
+    color:white;
+    color:rgb(252,64,101);
+    border: 0.5px solid;
+    /* outline:none;  / 
+    cursor: pointer;
+}
+*/
+
+
+/**---------------- End video modifications ---------------*/
+
+/*************** END disover modifications  *******************/
+
+
+/*************** start projects modifications  ****************/ 
+
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-66{
+    width: 66%;
+    max-width: 66%;
+}
+
+@media (max-width: 100px) {
+    .w-66{
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+
+
+
 .projects-list {
-    padding: 1.4em;
+    padding: 1.4em ;
     list-style: none;
 }
 .projects-list  li a, .projects-list  li:hover  a{
@@ -216,14 +305,14 @@ header{
     color: red;
     display: inline-block;
     width: 1em;
-    margin-left: -2em;
     font-size: 2.1em;
 }
 
+/************* ENd projects modifications *************/ 
+
+/************* start Goals odifications ***************/
 .cardimg {
-    width: 400px;
-    height: 350px;
-    padding: 15px;
+    width: 200px;
 }
 
 .inside-card-1,.inside-card-2,.inside-card-3{
@@ -236,14 +325,13 @@ header{
     color: black;
     padding: 20px 30px;
 
-    
     width: 310px;
     height: 290px;
     box-shadow: 10px 10px 10px 0px rgb(210, 210, 210);
     border-radius: 8px;
     text-align: center;
 }
-.-titleInCard {
+.titleInCard {
     font-weight: 700;
     font-size: 17px;
     text-align: center;
@@ -265,13 +353,19 @@ a.link-read-more:hover{
     text-decoration: underline;
 }
 
-.heyimg {
+.team-img-img {
     border-radius: 50%; 
     padding: 20px;
     background-image: linear-gradient(  to top, rgb(232, 59, 39), rgb(222, 74, 111)  );
     width: 180px;
     height: 180px;
 }
+
+
+
+
+
+
 
 .imgs {
     padding: 50px;
@@ -295,8 +389,18 @@ textarea {
     height: 190px;
 }
 .textemail {
+    max-width:390px;
     inline-size: 425px;
     font-size: 1.1em;
+}
+
+
+@media (max-width: 938px) {
+    .textemail{
+        max-width:390px;
+        inline-size: 425px;
+        font-size: 1.1em;
+    }
 }
 
 .lastone {
@@ -354,20 +458,8 @@ textarea {
     margin-right: auto;
 }
 
-.home-section header p  {
+.the-section header p  {
     padding: 1em;
-}
-
-.mlr-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.w-66{
-    width: 66%;
-    max-width: 66%;
 }
 
 footer {
@@ -425,17 +517,8 @@ select option {
 }
 
 /* team section */
-#team .card{
-    border: none;
-}
-#team h5{
-    font-weight: bolder;
-}
 
 
-#team .container .row{
-    margin-left: 5%;
-}
 
 
 /* contact us */
@@ -504,3 +587,9 @@ select option {
 
 
 
+
+
+
+.col{
+    margin-top :20px;
+}

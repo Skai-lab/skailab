@@ -2,12 +2,12 @@
     <div class="contact-us">
         <!-- Begin section Contact -->
 
-        <section class="home-section" id="contact">
+        <section class="the-section" id="contact">
 
             <!-- start div 9-->
             <header class="center-title">
                 <h3>
-                    CONTACT US
+                    contact us 
                 </h3>
 
             </header>
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <button class="pageclip-form__submit" type="submit">
-                                        <span>SUBMIT NOW</span>
+                                        <span>submit now</span>
                                     </button>
                                 </div>
                             </div>

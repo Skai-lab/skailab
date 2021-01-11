@@ -92,7 +92,7 @@ if (dots3.style.display === "none") {
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".navbar-fixed-top");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $(".background").height());
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $(".home-sec").height());
     });
 });
 
